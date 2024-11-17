@@ -1,4 +1,4 @@
-package PrajaktaP;
+package PrajaktaS;
 
 public class Test {
 
