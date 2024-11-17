@@ -8,6 +8,7 @@ class student{
 	System.out.println(name);
 	System.out.println(rollno);
 	}
+	
 	public static void main(String[] args){
 		student s = new student();     //object
 		s.printInfo();    //method calling
