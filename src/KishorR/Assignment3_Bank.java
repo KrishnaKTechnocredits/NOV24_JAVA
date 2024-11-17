@@ -21,6 +21,7 @@ int balance = 1000;
 		bank.debitAmt();
 		bank.creditAmt();
 		bank.displayAmt();
+		System.out.println("second commit practise");
 	}
 
 }
