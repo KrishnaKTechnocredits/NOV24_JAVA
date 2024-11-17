@@ -1,7 +1,4 @@
-/*
- * Assignment - 1 : 9th Nov'2024
- * Create a class called Employee having employee name , employee age, employee salary. and print them
-*/
+
 package MayurW;
 
 class Employee{
