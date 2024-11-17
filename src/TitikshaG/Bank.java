@@ -14,7 +14,7 @@ public class Bank{
 		}
 	
 	void display(){
-		System.out.println("Current balance is : " + balance);
+		System.out.println("Current balance of account is : " + balance);
 		}
 		
 	public static void main(String[] args){
