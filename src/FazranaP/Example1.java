@@ -13,6 +13,7 @@ public class Example1 {
 		exp1.update();
 		System.out.println(exp1.x);
 		System.out.println(exp1.y);
+		System.out.println();
 	}
 	
 	public static void main(String[] args) {
