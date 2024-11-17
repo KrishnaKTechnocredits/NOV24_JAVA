@@ -51,7 +51,7 @@ class EmployeeDetails{
 	void displayAllInfo(){
 		System.out.println("Displaying all info of the employee");
 		System.out.println("Employee name is - "+firstName+" "+lastName);
-		System.out.println("Employee ID is - "+empId);
+		System.out.println("Employee ID is = "+empId);
 		System.out.println("Manager ID of the employee is - "+managerId);
 		System.out.println("Address of the employee - "+address);
 		System.out.println("Phone number of the employee - "+phoneNumber+"\n");
