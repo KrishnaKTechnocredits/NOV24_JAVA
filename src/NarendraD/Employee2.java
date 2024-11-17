@@ -1,5 +1,4 @@
 package NarendraD;
-
 class Employee2{
 	String employeeName = "Narendra Deshmukh";
 	int employeeAge = 30;
