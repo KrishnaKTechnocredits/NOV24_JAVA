@@ -16,7 +16,7 @@ class EmployeeDetails{
 	}
 	
 	void updateSecondaryInfo(){
-		address = "Nagpur";
+		address = "Pune";
 		phoneNumber = "+91-976543742";
 	}
 	
