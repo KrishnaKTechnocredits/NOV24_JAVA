@@ -1,4 +1,4 @@
-package AaryaR;
+package TechnoCredits;
 
 public class Test {
 
