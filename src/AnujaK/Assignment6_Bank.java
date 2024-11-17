@@ -33,7 +33,7 @@ int balance; //instance variable
 	}//update the balance after debited amount.
 	
 	public void display() {
-		 System.out.println("your current balance is "+balance+" ." );
+		 System.out.println("your current balance is "+balance+" ." );//print balance
 	}
 	
 	public static void main(String [] args) {
