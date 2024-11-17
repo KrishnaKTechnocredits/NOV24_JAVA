@@ -39,7 +39,7 @@ public class BankDetailsAssignment6 {
 
 	public static void main(String[] args) {
 		BankDetailsAssignment6 bankDetailsAssignment6 = new BankDetailsAssignment6();
-		bankDetailsAssignment6.initBalance(5000);
+		bankDetailsAssignment6.initBalance(7000);
 		bankDetailsAssignment6.creditAmount(2000);
 		bankDetailsAssignment6.debitAmount(6500);
 		bankDetailsAssignment6.creditAmount(1500);
