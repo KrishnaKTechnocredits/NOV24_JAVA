@@ -1,6 +1,6 @@
-package MousamiB;
+package MousumiB;
 
-import MousamiB.Calculations;
+import MousumiB.Calculations;
 
 public class Calculations {
 		int num1 = 10;
