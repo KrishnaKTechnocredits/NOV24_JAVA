@@ -12,6 +12,7 @@ class Assignment3{
 	
 	void print(){
 		System.out.println("Current available balance is : " + balance);
+	
 	}
 	
 	public static void main(String[] args){
