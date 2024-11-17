@@ -14,10 +14,10 @@ class Employee3{
 	}
 	
 	public static void main(String[] args){
-		System.out.println("Start");
+		System.out.println("Start Program");
 		Employee3 employee = new Employee3();
 		employee.printEmployeeDetails();
-		System.out.println("End");
+		System.out.println("End Program");
 			
 	}
 }
