@@ -1,4 +1,4 @@
-package AnvitP;
+package anvitP;
 
 public class Test {
 
