@@ -1,5 +1,4 @@
 package prajaktaP;
-
 public class Example {
 	int age =30;
 	String name="Prajakta";
