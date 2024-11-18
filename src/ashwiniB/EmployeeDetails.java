@@ -1,4 +1,4 @@
-package AshwiniB;
+package ashwiniB;
 
 class  EmployeeDetails{
 	String firstName;
