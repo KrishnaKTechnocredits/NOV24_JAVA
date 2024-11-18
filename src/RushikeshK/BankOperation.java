@@ -1,4 +1,4 @@
-package RushikeshK;
+package rushikeshK;
 
 public class BankOperation {
 	
