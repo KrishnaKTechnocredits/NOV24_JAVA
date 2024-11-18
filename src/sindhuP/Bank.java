@@ -33,6 +33,7 @@ public class Bank {
 		bankDetail.creditAmt();
 		bankDetail.creditAmt();
 		bankDetail.creditAmt();
+		bankDetail.debitAmt();
 		bankDetail.printStatement();
 		bankDetail.printCountInfo();		
 	}
