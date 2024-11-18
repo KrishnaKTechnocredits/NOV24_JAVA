@@ -1,3 +1,4 @@
+package RajashreeA;
 class GradingStudent{
 	int score;
 	
