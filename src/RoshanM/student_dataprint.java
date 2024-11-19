@@ -1,4 +1,4 @@
-package roshanM;
+package RoshanM;
 
 class student{
 	String name = "roshan";
