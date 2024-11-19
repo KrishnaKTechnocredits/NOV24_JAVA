@@ -38,27 +38,27 @@ public class Assignment10_nestedIfElse {
 			
 		}else if (index>=4 && index<=6) {
 			if (index==4) {
-				System.out.println("Month index is "+index+" is in Q1, April");
+				System.out.println("Month index is "+index+" is in Q2, April");
 			}else if (index==5) {
-				System.out.println("Month index is "+index+" is in Q1, May");
+				System.out.println("Month index is "+index+" is in Q2, May");
 			}else if (index==6) {
-				System.out.println("Month index is "+index+" is in Q1, June");
+				System.out.println("Month index is "+index+" is in Q2, June");
 			}
 		}else if (index>=7 && index<=9) {
 			if (index==7) {
-				System.out.println("Month index is "+index+" is in Q1, July");
+				System.out.println("Month index is "+index+" is in Q3, July");
 			}else if (index==8) {
-				System.out.println("Month index is "+index+" is in Q1, August");
+				System.out.println("Month index is "+index+" is in Q3, August");
 			}else if (index==9) {
-				System.out.println("Month index is "+index+" is in Q1, September");
+				System.out.println("Month index is "+index+" is in Q3, September");
 			}
 		}else if (index>=10 && index<=12) {
 			if (index==10) {
-				System.out.println("Month index is "+index+" is in Q1, October");
+				System.out.println("Month index is "+index+" is in Q4, October");
 			}else if (index==11) {
-				System.out.println("Month index is "+index+" is in Q1, November");
+				System.out.println("Month index is "+index+" is in Q4, November");
 			}else if (index==12) {
-				System.out.println("Month index is "+index+" is in Q1, December");
+				System.out.println("Month index is "+index+" is in Q4, December");
 			}
 		}else if(index<0){
 			System.out.println("Invalid month index,it cant be negative");	
