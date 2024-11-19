@@ -1,4 +1,4 @@
-package RohanK;
+package rohanK;
 public class EmployeeDetails {
 	String FirstName,lastName,Address,PhoneNumber ;
 	int empID,managerId ;

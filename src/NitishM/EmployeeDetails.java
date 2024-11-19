@@ -1,4 +1,4 @@
-package NitishM;
+package nitishM;
 
 public class EmployeeDetails {
 	String firstName, lastName,address,phoneNumber;
