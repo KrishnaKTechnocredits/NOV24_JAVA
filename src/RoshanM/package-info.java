@@ -1,4 +1,4 @@
-package roshanM;
+package RoshanM;
 
 class Bank {
 	int initalbalance = 1000;
@@ -13,7 +13,6 @@ class Bank {
 	}
 	
 	void display () {
-		initalbalance = initalbalance ;
 	    System.out.println("your current balance is" +" "+ initalbalance);
 		
 	}
