@@ -1,4 +1,4 @@
-package RohanK;
+package rohanK;
 
 public class BankDetails {
 	
