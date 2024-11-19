@@ -1,4 +1,4 @@
-package RajashreeA;
+package rajashreeA;
 class GradingStudent{
 	int score;
 	

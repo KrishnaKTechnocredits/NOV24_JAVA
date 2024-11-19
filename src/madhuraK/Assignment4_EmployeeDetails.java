@@ -1,4 +1,4 @@
-package MadhuraK;
+package madhuraK;
 
 public class Assignment4_EmployeeDetails {
 

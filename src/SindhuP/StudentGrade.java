@@ -1,4 +1,4 @@
-package SindhuP;
+package sindhuP;
 
 public class StudentGrade {
 	void getStudentGrade(int score){

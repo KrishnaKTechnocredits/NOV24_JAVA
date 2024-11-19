@@ -1,4 +1,4 @@
-package SwapnilH;
+package swapnilH;
 
 public class Assignment7 {
 	String firstName,lastName,address,phoneNumber;

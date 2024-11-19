@@ -1,4 +1,4 @@
-package SindhuP;
+package sindhuP;
 
 public class MonthIndex {
 	void getMonthDetails(int index){

@@ -1,4 +1,4 @@
-package NishitP;
+package nishitP;
 
 class BankDetail
 {

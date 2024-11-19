@@ -1,4 +1,4 @@
-package SwapnilH;
+package swapnilH;
 
 public class Bankdetail {
 	int balance;

@@ -1,7 +1,5 @@
 package reshmaB;
 
-import assignment5.BankDetails;
-
 public class Assignment5_BankDetails {
 	int balance=1000;
 	int debitCount;
