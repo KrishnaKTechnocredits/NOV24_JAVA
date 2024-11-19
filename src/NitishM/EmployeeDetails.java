@@ -20,7 +20,7 @@ public class EmployeeDetails {
 		System.out.println("Employee First Name is "+firstName);
 		System.out.println("Employee Second Name is "+lastName);
 		System.out.println("Employee Id is "+empId);
-		System.out.println("Manager Id is "+managerId);
+		System.out.println("Manager's Id is "+managerId);
 	}
 	void displaySecondaryInfo() {
 		System.out.println("Employee Address is "+address);
