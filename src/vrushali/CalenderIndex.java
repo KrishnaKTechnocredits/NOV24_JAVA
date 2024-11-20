@@ -1,4 +1,4 @@
-package VrushaliK;
+package vrushali;
 //Assignment - 10 : 18th Nov'2024
 //Please use nested if else for below requirement.
 //Based on month index, print quarter and name of the month.
