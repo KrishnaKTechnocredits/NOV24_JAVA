@@ -1,4 +1,4 @@
-package titikshaG;
+package titiksha;
 
 public class Divisibleby2 {
 	
