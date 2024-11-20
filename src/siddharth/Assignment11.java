@@ -12,7 +12,7 @@ public class Assignment11 {
 		}
 	}
 		
-		void smallerNumber(int num1, int num2) {
+	void smallerNumber(int num1, int num2) {
 			if(num1<num2) {
 				System.out.println("Sample Input: "+num1+", "+num2);
 				System.out.println("Output: Number "+num1+" is smaller between "+num1+" & "+num2);
@@ -22,9 +22,9 @@ public class Assignment11 {
 			}
 	}
 		
-		public static void main(String[] args) {
+	public static void main(String[] args) {
 			Assignment11 assignment11 = new Assignment11();
 			assignment11.biggerNumber(10,17);
 			assignment11.smallerNumber(10,17);
-		}
+	}
 }
