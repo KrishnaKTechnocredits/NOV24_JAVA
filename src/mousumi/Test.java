@@ -1,4 +1,4 @@
-package Mousumi;
+package mousumi;
 
 public class Test {
 

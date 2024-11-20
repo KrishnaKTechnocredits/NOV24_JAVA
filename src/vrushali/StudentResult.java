@@ -1,4 +1,4 @@
-package VrushaliK;
+package vrushali;
 
 //Assignment - 9 : 18th Nov'2024
 //

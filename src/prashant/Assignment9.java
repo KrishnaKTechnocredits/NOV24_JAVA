@@ -24,7 +24,7 @@ output : Invalid score
 input : 102
 output : Invalid score
 */
-package prashantP;
+package prashant;
 public class Assignment9 {
 
 	void studentGrade(int score) {
