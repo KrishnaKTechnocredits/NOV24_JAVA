@@ -1,6 +1,6 @@
-package Mousumi;
+package mousumi;
 
-import Mousumi.Calculations;
+import mousumi.Calculations;
 
 public class Calculations {
 		int num1 = 10;
