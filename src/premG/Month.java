@@ -1,4 +1,4 @@
-package PremG;
+package premG;
 
 public class Month {
 	
