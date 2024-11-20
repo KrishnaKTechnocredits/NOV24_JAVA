@@ -23,6 +23,7 @@ public class MonthIndex {
 				 System.out.println("Month index 3 is in Qater 1, its March.");
 			 }
 		}
+	
 	else {
 		if (index >= 4 && index <= 6) {
 			if (index==4) {
@@ -35,6 +36,7 @@ public class MonthIndex {
 				 System.out.println("Month index 6 is in Qater 2, its June.");
 			 }
 		}
+	
 		else {
 			if (index >= 7 && index <= 9) {
 				if (index==7) {
@@ -44,31 +46,28 @@ public class MonthIndex {
 					 System.out.println("Month index 8 is in Qater 3, its Augst.");
 				 }
 				 else if (index==9) {
-					 System.out.println("Month index 9 is in Qater 3, its september.");
+					 System.out.println("Month index 9 is in Qater 3, its September.");
 				 }
 			}
+		
 		else {
 		   if (index >= 10 && index <= 12) {
-			   if (index==7) {
+			   if (index==10) {
 			   System.out.println("Month index 10 is in Qater 4, its Octember.");
 			   }
-			   else if (index==8) {
+			   else if (index==11) {
 			   System.out.println("Month index 11 is in Qater 4, its November.");
 			   }
-			   else if (index==9) {
+			   else if (index==12) {
 			   System.out.println("Month index 12 is in Qater 4, its December.");
 	          }
 				
-	      }		
-
+		   }
 		}
-
 		}
-		
 	    }
-		
 	    }
-}
+     }
         public static void main(String[] args) {
 	
         	MonthIndex.calander(12);
