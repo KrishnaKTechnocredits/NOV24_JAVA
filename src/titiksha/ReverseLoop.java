@@ -1,4 +1,4 @@
-package titikshaG;
+package titiksha;
 
 public class ReverseLoop {
 	int reverseof5;
