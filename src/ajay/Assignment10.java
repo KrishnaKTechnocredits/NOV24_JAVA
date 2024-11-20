@@ -63,7 +63,7 @@ public class Assignment10 {
 
 	public static void main(String[] args){
 		Assignment10 assignment10=new Assignment10();
-		assignment10.printquarterMonth(15);
+		assignment10.printquarterMonth(5);
 	}
 
 }
