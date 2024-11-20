@@ -1,4 +1,4 @@
-package MadhuraK;
+package madhura;
 
 public class Assignment10_MonthAndQuarterDetails {
 		

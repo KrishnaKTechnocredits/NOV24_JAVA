@@ -22,7 +22,7 @@ public class Example3 {
 	
 	public static void main(String[] args) {
 		Example3 example3 = new Example3();
-		example3.printOddNumbers(15,40);
+		example3.printOddNumbers(10,40);
 		example3.printOddNumbersInRevOrder(100,10);
 	}
 }
