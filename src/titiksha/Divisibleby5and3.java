@@ -11,7 +11,8 @@ public class Divisibleby5and3 {
 		
 		public static void main(String[] args) {
 			Divisibleby5and3 divisibleby3and5=new Divisibleby5and3();
-			divisibleby3and5.divisibleOf2(1,100);
+			divisibleby3and5.divisibleOf2(3,40);
+			
 			}
 	}
 
