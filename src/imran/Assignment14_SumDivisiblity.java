@@ -19,7 +19,7 @@ public class Assignment14_SumDivisiblity {
 		}
 		else 
 		{
-			for(int i=num1;i<num2;i++)
+			for(int i=num2;i<num1;i++)
 			{
 				if(i%3==0 && i%5==0)
 				{
@@ -27,12 +27,13 @@ public class Assignment14_SumDivisiblity {
 					count++;
 				}
 			}
-			System.out.println("In the Range of "+ num1+" and " +num2+" , calculated sum is "+ sum +" and total number of Numbers divisible by 3 & 5 are " +count);
+			System.out.println("In the Range of "+ num2+" and " +num1+" , calculated sum is "+ sum +" and total number of Numbers divisible by 3 & 5 are " +count);
 		}
 	}
 	
 	public static void main(String[] args) {
 		Assignment14_SumDivisiblity assignment14_SumDivisiblity_1 = new Assignment14_SumDivisiblity();
 		assignment14_SumDivisiblity_1.sumDivisible(1, 70);
+		assignment14_SumDivisiblity_1.sumDivisible(79, 42);
 	}
 }
