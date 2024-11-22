@@ -1,22 +1,30 @@
-package prajaktaS;
 
 public class Assignmnet11 {
 	
 	void max(int num1, int num2) {
-		if (num1<num2)
-		{
+
 		System.out.println("num1: "+num1);
 		System.out.println("num1: "+num2);
-		System.out.println(num2 +" greater than "+ num1+ " between "+num1 +" and "+num2);
+		if (num1<num2)
+		{
+		System.out.println(num2 +" is greater between "+num1 +" and "+num2);
 		}
+		else {
+			System.out.println( num2+ " is smaller between "+num1+" and " +num2 );
+			}
+		
 	}
 	
 	void min(int num1, int num2) {
+		System.out.println("num1: "+num1);
+		System.out.println("num1: "+num2);
 		if (num1<num2)
+
 		{
-			System.out.println("num1: "+num1);
-			System.out.println("num1: "+num2);
-			System.out.println(num1 +" smaller than "+ num2 + " between "+num1 +" and "+num2);
+			System.out.println(num1 +" is smaller between "+num1 +" and "+num2);
+		}
+		else{
+			System.out.println( num1+ " is greater between "+num1+" and " +num2 );
 		}
 	} 
 	
