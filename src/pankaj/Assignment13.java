@@ -1,6 +1,6 @@
 package pankaj;
 
-public class divisiblenumber {
+public class Assignment13 {
 
 	int num;
 	void divisible(int startrange,int endrange)
@@ -16,7 +16,7 @@ public class divisiblenumber {
 	}
 	public static void main(String[] args)
 	{
-		divisiblenumber dn=new divisiblenumber();
+		Assignment13 dn=new Assignment13();
 		dn.divisible(5,40);
 
 	}

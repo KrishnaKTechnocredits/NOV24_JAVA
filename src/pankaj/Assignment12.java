@@ -1,6 +1,6 @@
 package pankaj;
 
-public class forloop1 
+public class Assignment12 
 {
 	int num1;
 	void evennumber(int startrange,int endrange)
@@ -19,7 +19,7 @@ public class forloop1
 
 	public static void main(String[] args) 
 	{
-		forloop1 for1=new forloop1();
+		Assignment12 for1=new Assignment12();
 		for1.evennumber(10,15);		
 
 	}
