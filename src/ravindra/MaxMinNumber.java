@@ -16,7 +16,7 @@ public class MaxMinNumber {
 			System.out.println(num2+" is bigger between "+num1 +" and "+num2+".");
 		}
 		else {
-			System.out.println(num1+" is smaller between "+num1 +" and "+num2+".");
+			System.out.println(num1+" is bigger between "+num1 +" and "+num2+".");
 		}
 	}
 	
