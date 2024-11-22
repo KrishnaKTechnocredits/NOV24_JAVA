@@ -9,7 +9,7 @@ public class Aakash_Assignment14 {
 				if(num%3==0 && num%5==0) {
 					sum=sum+num;
 					count++;
-					System.out.println("Sum of number ranged between 1 to 70 is : "+num);
+					
 				}
 				
 			}
@@ -20,7 +20,6 @@ public class Aakash_Assignment14 {
 	public static void main(String[] args) {
 		Aakash_Assignment14 aakash_Assignment14=new Aakash_Assignment14();
 		aakash_Assignment14.sumOfNum(1, 70);
-		
 	}
 
 }
