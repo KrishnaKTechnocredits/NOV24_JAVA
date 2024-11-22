@@ -1,7 +1,5 @@
 package reshma;
 
-import assignment9.Assignment9_IfElseLadder;
-
 public class Assignment9_IfElseLadder {
 	void getResult(int marks){
 		if(marks <=100 && marks>90){
