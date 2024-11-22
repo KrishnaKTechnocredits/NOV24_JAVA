@@ -109,5 +109,3 @@ public class Assignment10_month {
 		assignment10_month.displayMonthInfo(13);	
 	}
 }
-		
-		
