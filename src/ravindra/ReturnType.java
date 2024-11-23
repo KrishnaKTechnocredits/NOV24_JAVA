@@ -1,21 +1,23 @@
 package ravindra;
 
 public class ReturnType {
-	void lastNumDiv(int startIndex, int endIndex) {
+	int  lastNumDiv(int startIndex, int endIndex) {
 		int count=0;
-		for(int num=startIndex;num>=endIndex;num--) {
+		int  num;
+		for(num=startIndex;num>=endIndex;num--) {
 			if(num%5==0) {
-				count++;
-				if(count>=1) {
-					System.out.println(num+" is the last number which is div by 5 in the given range.");
-					break;
+				count++;			
+				if(count>=1) {					
+					return num;					
 				}
+				break;
 			}
-		}
+		}return num;
 	}
 	
 	public static void main (String []args) {
 		ReturnType returnType=new ReturnType();
-		returnType.lastNumDiv(498, 10);
+		int num = returnType.lastNumDiv(498, 10);
+		System.out.println(num+" is the last number which is div by 5 in the given range.");
 	}
 }
