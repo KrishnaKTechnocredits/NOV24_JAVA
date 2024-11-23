@@ -17,7 +17,7 @@ public class Assignment_17 {
 	void divisibleBy5(int start, int end) {
 		int count = 0;
 		System.out.println("The Last 5 numbers divisible by 5 are : ");
-		for (int i = end; i <= end; i--) {
+		for (int i = end; i >=start; i--) {
 			if (i % 5 == 0) {
 				System.out.println(i);
 				count++;
