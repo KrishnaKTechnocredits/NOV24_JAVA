@@ -28,7 +28,7 @@ public class Assign_11_MinMaxNumber {
 		if (num1 < num2)
 			System.out.println(num1 + " is smaller between " + num1 + " & " + num2);
 		else
-			System.out.println(num2 + " is bigger between " + num1 + " & " + num2);
+			System.out.println(num2 + " is smaller between " + num1 + " & " + num2);
 	}
 
 	public static void main(String[] args) {
