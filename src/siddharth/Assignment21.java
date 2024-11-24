@@ -2,9 +2,8 @@ package siddharth;
 
 public class Assignment21 {
 	
-	int length;
-	
 	void getLength(String str) {
+		int length=0;
 		int count=0;
 		System.out.println("Input : "+str);
 		for(int index=0;index<str.length();index++) {
