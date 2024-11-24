@@ -10,6 +10,7 @@ package harish;
 public class Assignment19 {
 
 	void printInputCharsInReverse(String str) {
+		System.out.print(str + " printed in reverse order is -> ");
 		for (int i = str.length() - 1; i >= 0; i--) {
 			System.out.print(str.charAt(i));
 		}
