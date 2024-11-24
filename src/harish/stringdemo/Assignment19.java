@@ -1,4 +1,4 @@
-package harish;
+package harish.stringdemo;
 
 /**
  * Assignment 19 | Nov 24 - Program to print the characters of a given string in

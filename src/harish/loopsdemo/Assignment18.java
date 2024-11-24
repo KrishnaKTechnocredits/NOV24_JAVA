@@ -1,4 +1,4 @@
-package harish;
+package harish.loopsdemo;
 
 /**
  * Assignment 18 | Nov 23 - On user defined range print return the last numbers
