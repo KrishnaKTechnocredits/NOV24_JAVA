@@ -1,4 +1,4 @@
-package harish;
+package harish.loopsdemo;
 
 /**
  * Assignment 16 | Nov 22 - On user defined range print sum and average of first

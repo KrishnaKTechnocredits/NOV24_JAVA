@@ -1,7 +1,7 @@
 /**
  * 
  */
-package harish;
+package harish.ifelsedemo;
 
 /**
  * Assignment - 10 : 18th Nov'2024

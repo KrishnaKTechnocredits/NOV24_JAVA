@@ -1,4 +1,4 @@
-package harish;
+package harish.loopsdemo;
 
 /**
  * Assignment 13 - On user defined range print all numbers which are divisible

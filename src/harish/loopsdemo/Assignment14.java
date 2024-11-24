@@ -1,4 +1,4 @@
-package harish;
+package harish.loopsdemo;
 
 /**
  * Assignment 14 | 21 Nov - On user defined range print sum of all the number

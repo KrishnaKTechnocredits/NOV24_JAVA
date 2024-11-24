@@ -1,4 +1,4 @@
-package harish;
+package harish.basicsdemo;
 
 /**
  * Assignment - 7 : 16th November 2024 (parameter practice)

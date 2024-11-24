@@ -1,4 +1,4 @@
-package harish;
+package harish.ifelsedemo;
 
 /**
  * Assignment 11 - Program to print greater and smaller numbers between two
