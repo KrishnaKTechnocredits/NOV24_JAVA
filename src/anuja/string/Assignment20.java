@@ -2,6 +2,7 @@ package anuja.string;
 /*Find the given character count from given string.*/
 public class Assignment20 {
 	//method to print the count of matched char, use equals and run for loop to iterate
+	
 	int getCharFreq(String str, char ch) {
 		int count=0;
 		int stringLength = str.length();
@@ -10,6 +11,7 @@ public class Assignment20 {
 				count++;
 			}
 		}
+		
 		System.out.println("Count of " +ch+ " char in string "+str+" is "+count+" .\n");
 		return count;
 	}
@@ -17,8 +19,5 @@ public class Assignment20 {
 	public static void main(String[] args) {
 		Assignment20 assignment20 = new Assignment20();
 		assignment20.getCharFreq("aakanskha" , 'a');
-		
-		
 	}
-
 }
