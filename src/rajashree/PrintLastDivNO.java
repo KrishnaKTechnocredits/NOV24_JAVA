@@ -1,4 +1,5 @@
 //Assignment_18
+package rajashree;
 class PrintLastDivNO{
 	int getLastDivNumber(int startIndex, int endIndex){
 		int output=0;
