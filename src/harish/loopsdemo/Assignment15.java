@@ -1,4 +1,4 @@
-package harish;
+package harish.loopsdemo;
 
 /**
  * Assignment 15 | Nov 22 - On user defined range print first 3 numbers which is

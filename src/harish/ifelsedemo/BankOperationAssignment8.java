@@ -1,4 +1,4 @@
-package harish;
+package harish.ifelsedemo;
 
 /**
  * Assignment - 8 : 16th Nov'24 (25 mins) [parameter & condition]
