@@ -1,7 +1,7 @@
-package Assignments;
+package krishna;
 
 import java.util.Scanner;
-
+//example return type
 public class Assignment18 {
 
 	int getLastDivisibleNumber(int startIndex , int endIndex) {
