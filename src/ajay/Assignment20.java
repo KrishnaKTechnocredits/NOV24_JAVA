@@ -4,7 +4,6 @@ class Assignment20{
 	
 	int getcharcount(String str, char ch){
 		int count=0;
-		char c;
 		for(int i=0;i<str.length();i++){
 			if(str.charAt(i)=='a'){
 				count++;
