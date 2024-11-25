@@ -1,5 +1,6 @@
-package Assignments;
+package krishna;
 
+//get string length without spaces
 public class Assignment21 {
 	
 	void findInputLengthWithoutSapces(String str) {
