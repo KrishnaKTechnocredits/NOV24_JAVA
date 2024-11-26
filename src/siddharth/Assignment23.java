@@ -8,7 +8,7 @@ public class Assignment23 {
 		int lcount = 0;
 		int spacecount = 0;
 		int scount = 0;
-		
+
 		for (int index = 0; index < str.length(); index++) {
 			char ch = str.charAt(index);
 			if (Character.isLetter(ch)) {
@@ -21,7 +21,7 @@ public class Assignment23 {
 				dcount++;
 			} else if (ch == ' ') {
 				spacecount++;
-				
+
 			} else {
 				scount++;
 			}
