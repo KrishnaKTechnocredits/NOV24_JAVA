@@ -1,4 +1,4 @@
-package pooja;
+package pooja.basic;
 class Assignment4{
 	String firstName,lastName,address,phoneNumber;
 	int empId,managerId;

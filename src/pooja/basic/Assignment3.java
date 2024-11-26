@@ -1,4 +1,4 @@
-package pooja;
+package pooja.basic;
 class Assignment3{
 	int balance = 1000;
 	

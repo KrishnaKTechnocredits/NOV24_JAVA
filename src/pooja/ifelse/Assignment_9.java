@@ -26,7 +26,7 @@ output : Invalid score
 input : 102
 output : Invalid score
 */
-package pooja;
+package pooja.ifelse;
 
 public class Assignment_9 {
 	void grade(int num) {

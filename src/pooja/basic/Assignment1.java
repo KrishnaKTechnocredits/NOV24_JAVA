@@ -1,4 +1,4 @@
-package pooja;
+package pooja.basic;
 
 class Assignment1{
 	int num1 = 10;
