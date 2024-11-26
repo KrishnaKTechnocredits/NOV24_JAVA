@@ -11,7 +11,7 @@ int getCharFreq(String str, char ch){
 }
 
 */
-package pooja;
+package pooja.stringassignments;
 
 public class Assignment_20 {
 

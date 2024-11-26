@@ -11,7 +11,7 @@ output : o
          e 
          t  		
 */
-package pooja;
+package pooja.stringassignments;
 
 public class Assignment_19 {
 
