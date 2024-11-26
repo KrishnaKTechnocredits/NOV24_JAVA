@@ -6,7 +6,7 @@ public class Assignment19 {
 
 		System.out.println("======The Length of the string========");
 		System.out.println("                   "+str.length());
-		System.out.println("======The Reverse String is as below====");
+		System.out.println("======The RZeverse String is as below====");
 		for (int index = str.length() - 1; index >= 0; index--) {
 
 			System.out.println(str.charAt(index));
