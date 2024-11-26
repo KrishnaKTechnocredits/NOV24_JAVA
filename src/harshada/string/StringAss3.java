@@ -5,7 +5,7 @@
 //input : prem lata gupta
 //output : length without space is 13 and space characters are 2.
 
-package harshada;
+package harshada.string;
 
 public class StringAss3 {
 	int lengthCnt;
