@@ -5,7 +5,7 @@ input : prem lata gupta
 output : length without space is 13 and space characters are 2. 
 *
 */
-package pooja;
+package pooja.stringassignments;
 
 public class Assignment_21 {
 
