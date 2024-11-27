@@ -8,7 +8,7 @@ int getLastDivNumber(int startIndex, int endIndex){
 Hint : pass start and end index as a parameter.
 
 Input : Range -> 10 to 498
-Output : 495 is the last number which is div by 5 in the given range.*/package pooja;
+Output : 495 is the last number which is div by 5 in the given range.*/package pooja.forloop;
 
 public class Assignment_18 {
 

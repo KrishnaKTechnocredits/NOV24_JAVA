@@ -22,7 +22,7 @@ for(; start<=end; start++){
 
 }
 }*/
-package pooja;
+package pooja.forloop;
 
 public class Assignment_12 {
 

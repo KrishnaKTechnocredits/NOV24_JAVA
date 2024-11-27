@@ -10,7 +10,7 @@ Output : First 3 numbers divisible by 3 and 4 is :
 36
 */
 
-package pooja;
+package pooja.forloop;
 
 public class Assignment_15 {
 

@@ -1,5 +1,5 @@
-package pooja;
-public class Assignment_8 {
+package pooja.basic;
+public class Assignment_6 {
 	int balance;
 
 	void initBalance(int balance) {
@@ -12,13 +12,9 @@ public class Assignment_8 {
 		System.out.println(cAmt + " rs.credited to your account.");
 	}
 
-	void debitAmt(int dAmt) {
-		if (balance >= dAmt) {
+	void debitAmt(int dAmt) {		
 			balance -= dAmt;
 			System.out.println(dAmt + " rs.debited from your account.");
-		} else {
-			System.out.println("You have insufficient Account balance !!!");
-		}
 	}
 
 	void display() {
@@ -26,15 +22,13 @@ public class Assignment_8 {
 	}
 
 	public static void main(String[] args) {
-		Assignment_8 assignment_8 = new Assignment_8();
+		Assignment_6 assignment_6 = new Assignment_6();
 		System.out.println("------------------------------------------");
-		assignment_8.initBalance(5000);
-		assignment_8.creditAmt(2000);
-		assignment_8.creditAmt(500);
-		assignment_8.debitAmt(9500);
-		assignment_8.creditAmt(1500);
-		assignment_8.debitAmt(6000);
-		assignment_8.display();
+		assignment_6.initBalance(5000);
+		assignment_6.creditAmt(2000);
+		assignment_6.debitAmt(6500);
+		assignment_6.creditAmt(1500);
+		assignment_6.display();
 		System.out.println("------------------------------------------");
 	}
 }

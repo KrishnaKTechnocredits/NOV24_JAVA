@@ -8,7 +8,7 @@ Output : Divisible by 5 & 3, numbers are:
 15
 30
 */
-package pooja;
+package pooja.forloop;
 
 public class Assignment_13 {
 

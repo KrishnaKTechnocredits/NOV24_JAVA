@@ -19,7 +19,7 @@ output: invalid month index, it can't be negative.
 
 input : 13
 output: invalid month index, it can't be greater than 13.*/
-package pooja;
+package pooja.ifelse;
 
 public class Assignment_10 {
 

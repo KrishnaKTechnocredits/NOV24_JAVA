@@ -12,7 +12,7 @@ Found 3 numbers which are divible by 5 & 7.
 sum = 210
 Average = 70
 */
-package pooja;
+package pooja.forloop;
 
 public class Assignment_16 {
 

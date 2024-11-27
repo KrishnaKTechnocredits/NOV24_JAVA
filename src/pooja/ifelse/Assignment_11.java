@@ -11,7 +11,7 @@ sample input :
 num1 : 10
 num2 : 17
 output : 17 is bigger between 10 and 17.*/
-package pooja;
+package pooja.ifelse;
 
 public class Assignment_11 {
 
