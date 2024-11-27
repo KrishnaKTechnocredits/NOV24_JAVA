@@ -26,7 +26,7 @@ public class Assignment23 {
 		for(int i=0;i<str.length();i++)
 		{
 			char ch=str.charAt(i);
-			boolean flag=Character.isLetter(str.charAt(i));
+			boolean flag=Character.isLetter(ch);
 			if(flag==true)
 			{
 				if(Character.isUpperCase(ch))
