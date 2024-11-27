@@ -12,7 +12,7 @@
 //         t  		 
 
 
-package harshada;
+package harshada.string;
 
 public class StringAss1 {
 	

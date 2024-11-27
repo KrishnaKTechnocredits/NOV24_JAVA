@@ -9,7 +9,7 @@
 //     return count;
 //}
 
-package harshada;
+package harshada.string;
 
 public class StringAss2 {
 	int count;
