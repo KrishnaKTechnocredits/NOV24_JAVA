@@ -1,13 +1,14 @@
-package kavita;
+package kavita.basic;
+
+/*Assignment-10: Please use nested if else for below requirement.
+Based on month index, print quarter and name of the month.*/
 
 public class Month {
 	
 	void printQuarterandMonthIndex(int index) {
 			if(index<1) {
 				System.out.println("Invalid month index, it can't be negative");
-				
 			}else if(index>=1 && index<=3) {
-				
 				if(index==1) {
 					System.out.println("Month index " + index + " is in Q1. Its January");
 				}else if(index==2){
@@ -25,7 +26,6 @@ public class Month {
 				else {
 					System.out.println("Month index " + index + " is in Q2. Its June");
 				}
-				
 			}else if(index>=7 &&index<=9) {
 				if(index==7) {
 					System.out.println("Month index " + index + " is in Q3. Its July");
@@ -35,7 +35,6 @@ public class Month {
 				else {
 					System.out.println("Month index " + index + " is in Q3. Its September");
 				}
-				
 			}else if(index>=10 &&index<=12) {
 				if(index==10) {
 					System.out.println("Month index " + index + " is in Q4. Its October");
@@ -45,9 +44,7 @@ public class Month {
 				else {
 					System.out.println("Month index " + index + " is in Q4. Its December");
 				}
-			}
-				
-			else {
+			}else {
 				System.out.println("Invalid month index, it can't be greater than 12.");	
 				}
 	}
