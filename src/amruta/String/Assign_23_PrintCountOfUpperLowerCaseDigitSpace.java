@@ -18,7 +18,7 @@ package amruta.String;
 public class Assign_23_PrintCountOfUpperLowerCaseDigitSpace {
 
 	void printdata(String input) {
-		int upper = 0, lower = 0, digit = 0, special = 0;
+		int upper = 0, lower = 0, digit = 0, special = 0, space = 0;
 		char ch;
 		for (int index = 0; index < input.length(); index++) {
 			ch = input.charAt(index);
@@ -28,6 +28,8 @@ public class Assign_23_PrintCountOfUpperLowerCaseDigitSpace {
 				lower++;
 			} else if (Character.isDigit(ch)) {
 				digit++;
+			} else if (Character.isWhitespace(ch)) {
+				space++;	
 			} else {
 				special++;
 			}
@@ -36,12 +38,13 @@ public class Assign_23_PrintCountOfUpperLowerCaseDigitSpace {
 		System.out.println("Uppercase character count is : " + upper);
 		System.out.println("Lowercase character count is : " + lower);
 		System.out.println("digit count is : " + digit);
+		System.out.println("space count is : " + space);
 		System.out.println("Special character count is : " + special);
 
 	}
 
 	public static void main(String[] args) {
 		Assign_23_PrintCountOfUpperLowerCaseDigitSpace a23 = new Assign_23_PrintCountOfUpperLowerCaseDigitSpace();
-		a23.printdata("Te4c_hnoCredi3ts");
+		a23.printdata("Te4c_hnoCredi3t s");
 	}
 }
