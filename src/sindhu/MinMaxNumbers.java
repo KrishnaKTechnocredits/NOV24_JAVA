@@ -5,8 +5,8 @@ public class MinMaxNumbers {
 		if(b>a){
 			System.out.println(b+" is bigger between "+a+" and "+b);
 		}
-		if(a<b) {
-			System.out.println(a+" is smaller between "+a+" and "+b);
+		if(b<a) {
+			System.out.println(a+" is bigger between "+a+" and "+b);
 		}
 	}
 
