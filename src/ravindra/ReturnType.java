@@ -2,15 +2,10 @@ package ravindra;
 
 public class ReturnType {
 	int  lastNumDiv(int startIndex, int endIndex) {
-		int count=0;
 		int  num;
 		for(num=startIndex;num>=endIndex;num--) {
-			if(num%5==0) {
-				count++;			
-				if(count>=1) {					
-					return num;					
-				}
-				break;
+			if(num%5==0) {			
+				break;				
 			}
 		}return num;
 	}
