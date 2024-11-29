@@ -1,6 +1,6 @@
 package sachin;
 
-public class Assignment17 {
+public class Assignment_17 {
 		
 		void lastNumber(int start, int end) {
 			int count=0;
@@ -17,7 +17,7 @@ public class Assignment17 {
 		}
 		
 		public static void main(String[] args) {
-			new Assignment17().lastNumber(10, 500);
+			new Assignment_17().lastNumber(10, 500);
 		}
 	
 	
