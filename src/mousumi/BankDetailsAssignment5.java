@@ -1,6 +1,6 @@
 package mousumi;
 
-class BankDetails{
+class BankDetailsAssignment5{
 	int balance;
 	int debitCount;
 	int creditCount;
@@ -31,7 +31,7 @@ class BankDetails{
  }
  
     public static void main(String[] args){
-	   BankDetails bankDetails = new BankDetails();
+	   BankDetailsAssignment5 bankDetails = new BankDetailsAssignment5();
 	   bankDetails.debitAmount();
 	   bankDetails.creditAmount();
 	   bankDetails.creditAmount();
