@@ -1,8 +1,6 @@
 package sachin;
 
-
-
-public class Assignment16 {
+public class DAssignment16 {
 	
 		static int count;
 		static int sum;
@@ -21,7 +19,7 @@ public class Assignment16 {
 		}
 		
 		public static void main(String[] args) {
-			Assignment16 assign16 = new Assignment16();
+			DAssignment16 assign16 = new DAssignment16();
 			int ans= assign16.getRangeSum(1,210);
 	  		int average = ans /count;
 			System.out.println("sum of 3 divisible numbers by 5 & 7 are :" +ans);
