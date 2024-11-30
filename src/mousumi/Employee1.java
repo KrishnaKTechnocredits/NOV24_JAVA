@@ -1,9 +1,10 @@
-package komal;
+package mousumi;
 
-public class Test {
-	String name = "komal";
+public class Employee1 {
+
+	String name = "Mousumi";
 	int age = 27;
-	int salary = 50000;
+	int salary = 80000;
 	
 	void printData() {
 		System.out.println("Name - "+name);
@@ -12,7 +13,7 @@ public class Test {
 	}
 	
 	public static void main(String[] args) {
-		Test test = new Test();
-		test.printData();
+		Employee1 emp = new Employee1();
+		emp.printData();
 	}
 }
