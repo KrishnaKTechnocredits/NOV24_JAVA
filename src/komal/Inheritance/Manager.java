@@ -1,6 +1,7 @@
 package komal.Inheritance;
 
 public class Manager {
+	String companyName = "Techo";
 	String name;
 	String salary;
 	String department = "Automation Engineer";
@@ -13,7 +14,8 @@ public class Manager {
 
 	public static void main(String[] args) {
 		Manager manager = new Manager(); // case 1
+
 		manager.getDetails();
-		System.out.println("department : " + manager.department);
+		System.out.println("department : " + manager.department + manager.companyName);
 	}
 }

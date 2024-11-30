@@ -1,6 +1,7 @@
 package komal.Inheritance;
 
 public class Employee extends Manager {
+	String companyName = "credits";
 	String name;
 	String salary;
 	String rollno = "101";
@@ -15,6 +16,7 @@ public class Employee extends Manager {
 //case 2 : create object of child class 		
 		Employee emp = new Employee();
 		System.out.println("Start case 2 -----");
+		System.out.println(emp.companyName + " This is comapny name");
 		emp.getDetails();
 		System.out.println("roll number is :" + emp.rollno);
 		System.out.println("roll number is :" + emp.department);
@@ -22,7 +24,9 @@ public class Employee extends Manager {
 		System.out.println("End case 2 -----");
 //Case 3  :create object of child and assign to parent reference 
 		Manager manager = new Employee();
+
 		System.out.println("Start case 3 -----");
+		System.out.println(manager.companyName + " This is comapny name");
 		manager.getDetails();
 		System.out.println("Department is-----" + manager.department);
 //		System.out.println("roll number is-----" + manager.rollno);
@@ -40,6 +44,7 @@ public class Employee extends Manager {
 		Employee emp3 = new Employee();
 		manager1 = emp3;
 		System.out.println("Start case 5 -----" + manager1.department);
+		System.out.println(manager1.companyName + " This is comapny name");
 		manager1.getDetails();
 		System.out.println("Department is :" + manager1.department);
 //		System.out.println("roll number is :" + manager1.rollno);
@@ -50,6 +55,7 @@ public class Employee extends Manager {
 		emp3 = (Employee) manager1; // so we make explicit type casting
 		emp3.getDetails();
 		System.out.println("Start case 5.1 -----");
+		System.out.println(emp3.companyName + " This is comapny name");
 		System.out.println("Department is :" + emp3.department);
 		System.out.println("roll number is :" + emp3.rollno);
 		System.out.println("End case 5.1 -----");
@@ -61,10 +67,11 @@ public class Employee extends Manager {
 		// emp4 = manager2 ; // get compilation error cannot convert manager to employee
 		emp4 = (Employee) manager2;
 		System.out.println("Start case 6 ----- Using Type Casting ");
+		System.out.println(emp4.companyName + " This is comapny name");
 		emp4.getDetails();
 		System.out.println("Department is :" + emp4.department);
 		System.out.println("roll number is :" + emp4.rollno);
-		System.out.println("End case 6 -----  ");
+		System.out.println("End case 6 ----- ");
 	}
 
 }
