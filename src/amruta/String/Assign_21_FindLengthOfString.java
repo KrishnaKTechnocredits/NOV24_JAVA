@@ -8,23 +8,23 @@ package amruta.String;
 
 public class Assign_21_FindLengthOfString {
 
-	static int lengthCount = 0;
-	static int spaceCount = 0;
-
-	static int findLengthOfString(String str) {
-		for (int index = 0; index < str.length(); index++) {
-			if (Character.isLetter(str.charAt(index)))
-				lengthCount++;
-			else
+	static void findLengthOfString(String str) {
+		int lengthCount = 0;
+		int spaceCount = 0;
+		for (int index = 0; index <= str.length() - 1; index++) {
+			char ch = str.charAt(index);
+			if (Character.isWhitespace(ch))
 				spaceCount++;
+			else
+				lengthCount++;
 		}
-		return lengthCount;
+		System.out.println(
+				"length of " + str + " without space is " + lengthCount + " and space characters are " + spaceCount);
 	}
 
 	public static void main(String[] args) {
-		String str = "prem lata gupta";
-		int length = findLengthOfString(str);
-		System.out.println(
-				"length of " + str + " without space is " + length + " and space characters are " + spaceCount);
+		findLengthOfString("prem lata gupta");
+
+		findLengthOfString("pr2m la_t1a");
 	}
 }
