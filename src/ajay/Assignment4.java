@@ -10,7 +10,7 @@ create 5 methods.
 5) displayAllInfo() -> firstName, lastName, empId, managerId, address, phoneNumber
 */
 
-class EmployeeDetails{
+class Assignment4{
 	String firstName;
 	String lastName;
 	int empId;
@@ -58,11 +58,11 @@ class EmployeeDetails{
 	}
 	
 	public static void main(String[] args){
-		EmployeeDetails employeedetails=new EmployeeDetails();
-		employeedetails.updatePrimaryInfo();
-		employeedetails.updateSecondaryInfo();
-		employeedetails.displayPrimaryInfo();
-		employeedetails.displayOtherInfo();
-		employeedetails.displayAllInfo();
+		Assignment4 assignment4=new Assignment4();
+		assignment4.updatePrimaryInfo();
+		assignment4.updateSecondaryInfo();
+		assignment4.displayPrimaryInfo();
+		assignment4.displayOtherInfo();
+		assignment4.displayAllInfo();
 	}
 }
