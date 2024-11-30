@@ -1,6 +1,6 @@
 package ajay;
 
-public class MaxMin {
+public class Assignment11 {
 	
 	void minOf2(int num1, int num2) {
 		if(num1<num2) {
@@ -18,7 +18,7 @@ public class MaxMin {
 	}
 
 	public static void main(String[] args) {
-		MaxMin maxmin=new MaxMin();
+		Assignment11 maxmin=new Assignment11();
 		maxmin.minOf2(10,17);
 		maxmin.maxOf2(10,17);
 	}
