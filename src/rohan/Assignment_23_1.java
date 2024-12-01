@@ -34,11 +34,10 @@ public class Assignment_23_1 {
 			}
 			
 			}
-		System.out.println("UppercaseCount="+countUppercase+"=="+str1);
-		System.out.println("LowercaseCount="+countLowerCase+"=="+str2);
-		System.out.println("DigitcaseCount="+countDigit+"=="+str3);
-		System.out.println("SpaceCount="+countSpace+"=="+str4);
-		System.out.println("SpacialcharactorCount="+countSpacialCharacor+"=="+str5);
+		System.out.println("UppercaseCount->" + countUppercase + "\n" + str1 + "\n\n" + "LowercaseCount->"
+				+ countLowerCase + "\n" + str2 + "\n\n" + "DigitcaseCount->" + countDigit + "\n" + str3 + "\n\n"
+				+ "SpaceCount->" + countSpace + "\n" + str4 + "\n\n" + "SpacialcharactorCount->" + countSpacialCharacor
+				+ "\n" + str5);
 		}
 	}
 
