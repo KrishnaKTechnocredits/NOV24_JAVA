@@ -11,7 +11,7 @@ public class Case6 {
 		employee = (Employee)manager;
 
 		System.out.println("Its a case6 will work like case2 \n");
-		System.out.println("x variable from class Employee -" + employee.x);
+		System.out.println("x variable from class Employee-" + employee.x);
 		System.out.println("y variable from class Employee- " + employee.y);
 		System.out.println(employee.z);
 		employee.m1();//from manager
