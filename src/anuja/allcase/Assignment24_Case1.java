@@ -1,6 +1,6 @@
 package anuja.allcase;
 
-public class Case1 {
+public class Assignment24_Case1 {
 	 public static void main(String[] args) {
 		 System.out.println("This is case1 \n");
 		 Manager manager= new Manager();

@@ -17,7 +17,7 @@ display();*/
 
 package anuja;
 
-public class Assignment6_Bank {
+public class Assignment06 {
 int balance; //instance variable
 	
 	public void initialBalance(int amt) {
@@ -37,7 +37,7 @@ int balance; //instance variable
 	}
 	
 	public static void main(String [] args) {
-		Assignment6_Bank bank =  new Assignment6_Bank();
+		Assignment06 bank =  new Assignment06();
 		bank.initialBalance(5000);
 		bank.creditAmt(2000);
 		bank.debitAmt(6500);

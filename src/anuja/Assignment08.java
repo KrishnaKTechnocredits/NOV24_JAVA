@@ -1,7 +1,7 @@
 package anuja;
 
 /*Bank operations with condition if debit is more than current balance*/
-public class Assignment8 {
+public class Assignment08 {
 
 	int debitcount;
 	int creditcount;
@@ -37,14 +37,14 @@ public class Assignment8 {
 	}
 	
 	public static void main(String[] args) {
-		Assignment8 assignment8 = new Assignment8();
-		assignment8.setInitBalance(5000);
-		assignment8.creditAmt(2000);
-		assignment8.creditAmt(500);
-		assignment8.debitAmt(9500);
-		assignment8.creditAmt(1500);
-		assignment8.debitAmt(6000);
-		assignment8.displayActualBalance();
+		Assignment08 assignment08 = new Assignment08();
+		assignment08.setInitBalance(5000);
+		assignment08.creditAmt(2000);
+		assignment08.creditAmt(500);
+		assignment08.debitAmt(9500);
+		assignment08.creditAmt(1500);
+		assignment08.debitAmt(6000);
+		assignment08.displayActualBalance();
 	}
 
 }
