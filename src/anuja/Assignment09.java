@@ -28,7 +28,7 @@ output : Invalid score
 
 package anuja;
 
-public class Assignment9 {
+public class Assignment09 {
 	
 	public void displayGrade(int score) {
 		System.out.println("-------------------------- ");
@@ -57,12 +57,12 @@ public class Assignment9 {
 	}
 	
 	public static void main (String[] args){
-		Assignment9 assignment9 = new Assignment9();
-		assignment9.displayGrade(92);
-		assignment9.displayGrade(76);
-		assignment9.displayGrade(23);
-		assignment9.displayGrade(-19);
-		assignment9.displayGrade(102);
+		Assignment09 assignment09 = new Assignment09();
+		assignment09.displayGrade(92);
+		assignment09.displayGrade(76);
+		assignment09.displayGrade(23);
+		assignment09.displayGrade(-19);
+		assignment09.displayGrade(102);
 		
 	}
 	

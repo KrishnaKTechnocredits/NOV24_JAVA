@@ -11,7 +11,7 @@ create 5 methods.
 5) displayAllInfo() -> firstName, lastName, empId, managerId, address, phoneNumber
 
 main -> updatePrimaryInfo() -> updateSecondaryInfo() -> displayPrimaryInfo() -> displayOtherInfo() -> displayAllInfo()*/
-public class Assignment4 {
+public class Assignment04 {
 
 	String firstName;
 	String lastName;
@@ -54,11 +54,11 @@ public class Assignment4 {
 	}
 	
 	public static void main(String[] args) {
-		Assignment4 assignment4 = new Assignment4();
-		assignment4.updatePrimaryInfo();
-		assignment4.updateSecondaryInfo();
-		assignment4.displayPrimaryInfo();
-		assignment4.displayOtherInfo();
-		assignment4.displayAllInfo();
+		Assignment04 assignment04 = new Assignment04();
+		assignment04.updatePrimaryInfo();
+		assignment04.updateSecondaryInfo();
+		assignment04.displayPrimaryInfo();
+		assignment04.displayOtherInfo();
+		assignment04.displayAllInfo();
 	}
 }

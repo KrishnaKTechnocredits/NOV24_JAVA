@@ -1,7 +1,7 @@
 package anuja;
 
 /*make parameterised methos for display all info from program assignemtn4.*/
-public class Assignment7 {
+public class Assignment07 {
 
 	String fName;
 	String lName;
@@ -46,11 +46,11 @@ public class Assignment7 {
 	}
 
 	public static void main(String[] args) {
-		Assignment7 assignment7 = new Assignment7();
-		assignment7.updatePrimaryInfo("Anuja", "Paikrao", 20, 54);
-		assignment7.updateSecondaryInfo("Pune Viman nagar", "+91 9552577543");
-		assignment7.displayPrimaryInfo();
-		assignment7.displayOtherInfo();
-		assignment7.displayAllInfo();
+		Assignment07 assignment07 = new Assignment07();
+		assignment07.updatePrimaryInfo("Anuja", "Paikrao", 20, 54);
+		assignment07.updateSecondaryInfo("Pune Viman nagar", "+91 9552577543");
+		assignment07.displayPrimaryInfo();
+		assignment07.displayOtherInfo();
+		assignment07.displayAllInfo();
 	}
 }

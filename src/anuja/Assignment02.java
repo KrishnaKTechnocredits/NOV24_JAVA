@@ -8,7 +8,7 @@ num1 = 10;
 num2 = 2;
 
 Answer is 45*/
-public class Assignment2 {
+public class Assignment02 {
 	
 	 int x = 10;
 	 int y = 2;
@@ -51,7 +51,7 @@ public class Assignment2 {
 
 
 	 public static void main(String[] args) {
-		 Assignment2 x = new Assignment2();
+		 Assignment02 x = new Assignment02();
 		 x.add();
 		 x.sub();
 		 x.division();
