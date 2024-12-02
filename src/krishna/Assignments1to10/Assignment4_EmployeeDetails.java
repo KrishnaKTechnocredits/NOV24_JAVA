@@ -1,4 +1,4 @@
-package Assignments1to10;
+package krishna.Assignments1to10;
 
 import java.util.Scanner;
 
