@@ -1,6 +1,6 @@
 package sachin;
 
-public class ExampleOne {
+public class Assignment1 {
 
 	static int a=10;
 	int ab=20;
@@ -8,7 +8,7 @@ public class ExampleOne {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
   // System.out.println(a);
- ExampleOne exampleone = new ExampleOne();
+		Assignment1 exampleone = new Assignment1();
  exampleone.m1();
 		
 	}
