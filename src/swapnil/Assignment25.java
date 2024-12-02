@@ -1,7 +1,6 @@
 package swapnil;
 
 public class Assignment25 {
-	//int sum;
 	
 	void Sum(String str) {
 		int sum=0;
@@ -9,8 +8,6 @@ public class Assignment25 {
 			if(Character.isDigit(str.charAt(num))) {
 				int num1=Character.getNumericValue(str.charAt(num));
 				sum = sum + num1 ;
-				
-				
 			}
 		}
 			System.out.println(+sum);
