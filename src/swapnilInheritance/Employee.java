@@ -1,4 +1,4 @@
-package technocredits;
+package swapnilInheritance;
 
 public class Employee extends Manager {
 	int y = 20;

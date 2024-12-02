@@ -13,7 +13,7 @@ public class Assignment8 {
 	}
 	void debitAmt(int amt){
 		if (balance < amt)
-			System.out.println("In Sufficient balance, your ask is "+ " amt rs but you only have"+balance+" rs.");
+			System.out.println("In Sufficient balance, your ask is " +amt+ "  rs but you only have "+balance+" rs.");
 			else {
 			balance = balance - amt;
 		    System.out.println(+amt+ " rs has been debited");
