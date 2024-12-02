@@ -9,7 +9,7 @@
 //space -> 1
 //special char -> 1
 
-package harshada;
+package harshada.string;
 
 public class StringAss5 {
 	int upperCnt, lowerCnt, digitCnt, spaceCnt, specailCharCnt;
