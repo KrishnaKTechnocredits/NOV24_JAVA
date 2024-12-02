@@ -52,18 +52,18 @@ public class Assignment25 {
 				}
 			}
 		}
+		System.out.println("Total sum of digits is : " + sum);
+		int differnce = sumOfOdd - sumOfEven;
 
-		return sum;
+		return differnce;
 	}
 
 	public static void main(String args[]) {
 
 		Assignment25 assignment25 = new Assignment25();
-		int sum1 = assignment25.sumOfDigit("te1ch2no3cre7dits");
-		System.out.println("Total sum of digits is ==> " + sum1);
+		int differnce = assignment25.sumOfDigit("te1ch2no3cre7dits");
 		System.out.println("Sum of Even numbers : " + assignment25.sumOfEven);
 		System.out.println("Sum of Odd numbers : " + assignment25.sumOfOdd);
-		int differnce = assignment25.sumOfOdd - assignment25.sumOfEven;
 		System.out.println("Differnce between  Odd numbers  and even number is: " + differnce);
 
 	}
