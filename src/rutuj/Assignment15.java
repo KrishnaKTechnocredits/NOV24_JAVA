@@ -1,4 +1,4 @@
-package rutuja;
+package rutuj;
 
 public class Assignment15 {
 	

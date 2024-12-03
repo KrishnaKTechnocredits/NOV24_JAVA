@@ -10,7 +10,7 @@ Output : Last 5 numbers divisible by 5 is :
 490
 485
 480*/
-package pooja;
+package pooja.forloop;
 
 public class Assignment_17 {
 
