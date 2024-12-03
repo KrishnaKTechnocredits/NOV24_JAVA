@@ -25,8 +25,8 @@ public class Assignment31 {
 	public static void main(String[] args) {
 		Assignment31 assignment31 = new Assignment31();
 		int ans1 = assignment31.getSumDiff("te1ch2no3cre7dits");
-		int ans2 = assignment31.getSumDiff("4563");
 		System.out.println("Output is : "+ans1);
+		int ans2 = assignment31.getSumDiff("4563");
 		System.out.println("Output is : "+ans2);
 	}
 }
