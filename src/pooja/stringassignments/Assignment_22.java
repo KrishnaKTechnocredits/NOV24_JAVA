@@ -9,7 +9,7 @@ output : total 5 digits are there in given input.
 
 Hint : boolean Character.isDigit(ch)
  */
-package pooja;
+package pooja.stringassignments;
 
 public class Assignment_22 {
 
