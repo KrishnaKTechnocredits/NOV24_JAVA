@@ -1,7 +1,7 @@
 package anuja;
 /*Create a class called Employee having employee name , employee age, employee salary. and print them.
 */
-public class Assignment1 {
+public class Assignment01 {
 	
 	void getEmployeeDetails() {
 		String EmployeeName = "Anuja";
@@ -12,8 +12,8 @@ public class Assignment1 {
 	}
 	
 	public static void main(String[] args) {
-		Assignment1 assignment1= new Assignment1();
-		assignment1.getEmployeeDetails();
+		Assignment01 assignment01= new Assignment01();
+		assignment01.getEmployeeDetails();
 	}
 
 }

@@ -14,7 +14,7 @@ creditAmt();
 display;
 
 output : Your current balance is 1100.*/
-public class Assignment3 {
+public class Assignment03 {
 
 	int initialBalance = 1000;
 	int currentBalance =initialBalance;
@@ -35,11 +35,11 @@ public class Assignment3 {
 	}
 	
 	public static void main(String[] args) {
-		Assignment3 assignment3 =new  Assignment3();
-		assignment3.creditBalance();
-		assignment3.debitBalance();
-		assignment3.creditBalance();
-		assignment3.displayCurrentBalance();
+		Assignment03 assignment03 =new  Assignment03();
+		assignment03.creditBalance();
+		assignment03.debitBalance();
+		assignment03.creditBalance();
+		assignment03.displayCurrentBalance();
 	}
 
 	
