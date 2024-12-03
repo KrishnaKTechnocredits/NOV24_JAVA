@@ -12,7 +12,7 @@ public class Assignment15 {
 			if(i%3==0&& i%4==0){
 				System.out.println(i);
 				count++;
-				if(count==4){
+				if(count==3){
 					break;
 				}
 			}
