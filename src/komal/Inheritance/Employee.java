@@ -5,11 +5,13 @@ public class Employee extends Manager {
 	String name;
 	String salary;
 	String rollno = "101";
+	String department = "qa";
 
 	public void getDetails() {
 		this.name = "komal";
 		this.salary = "300000";
 		System.out.println("Employee Name is " + name);
+		System.out.println("child method");
 	}
 
 	public static void main(String args[]) {
@@ -23,12 +25,14 @@ public class Employee extends Manager {
 		emp.getDetails();
 		System.out.println("End case 2 -----");
 //Case 3  :create object of child and assign to parent reference 
-		Manager manager = new Employee();
+		Manager manager3 = new Employee();
 
 		System.out.println("Start case 3 -----");
-		System.out.println(manager.companyName + " This is comapny name");
-		manager.getDetails();
-		System.out.println("Department is-----" + manager.department);
+
+		manager3.getManagerDetails();
+		System.out.println(manager3.companyName + " This is comapny name");
+		manager3.getDetails();
+		System.out.println("Department is-----" + manager3.department);
 //		System.out.println("roll number is-----" + manager.rollno);
 		System.out.println("End case 3 -----");
 // Note : in this case we cannot access roll no. because which is in child class and not in parent class

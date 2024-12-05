@@ -1,5 +1,7 @@
 package komal.Inheritance;
 
+import komal.Basic.Assignment1;
+
 public class Practice {
 
 	public static void main(String[] args) {
@@ -9,6 +11,9 @@ public class Practice {
 //	      Parent obj2 = (Parent) new Child();   
 		obj1.PrintData();
 //		obj2.PrintData();
+		Assignment1 assignment1 = new Assignment1();
+		assignment1.printData();
+		assignment1.displayUsingImport();
 
 	}
 
@@ -29,6 +34,6 @@ class Child extends Parent {
 	String surname = "paygude";
 
 	void PrintData() {
-		System.out.println("method of child class" + name + surname);
+		System.out.println("method of child class......" + name + surname);
 	}
 }

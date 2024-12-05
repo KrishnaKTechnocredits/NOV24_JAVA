@@ -5,10 +5,14 @@ public class Assignment1 {
 	int age = 31;
 	int salary = 50000;
 
-	void printData() {
+	public void printData() {
 		System.out.println("Name : " + name);
 		System.out.println("Age : " + age);
 		System.out.println("Salary : " + salary);
+	}
+
+	public void displayUsingImport() {
+		System.out.println("practice import package");
 	}
 
 	public static void main(String[] args) {
