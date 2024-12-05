@@ -20,7 +20,7 @@ credit method call count -> 3
 printstatment method call count -> 1
 
 Note : debitAmt deduct 200 rs, creditAmt increase balance by 400 rs*/
-public class Assignement5 {
+public class Assignment05 {
 
 	int balance = 1000;
 	int debitCount;
@@ -51,13 +51,13 @@ public class Assignement5 {
 	}
 
 	public static void main(String[] args) {
-		Assignement5 assignement5 = new Assignement5();
-		assignement5.deditAmt();
-		assignement5.creditAmt();
-		assignement5.creditAmt();
-		assignement5.creditAmt();
-		assignement5.printStatement();
-		assignement5.printCountInfo();
+		Assignment05 assignment05 = new Assignment05();
+		assignment05.deditAmt();
+		assignment05.creditAmt();
+		assignment05.creditAmt();
+		assignment05.creditAmt();
+		assignment05.printStatement();
+		assignment05.printCountInfo();
 
 	}
 
