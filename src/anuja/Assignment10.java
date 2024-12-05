@@ -23,7 +23,7 @@ output: invalid month index, it can't be greater than 13.
 */
 package anuja;
 
-public class Assignment10_month {
+public class Assignment10 {
 	public void displayMonthInfo(int month) {
 		//first else if block with nested  if else for Q1 and its individual months.
 		
@@ -102,11 +102,11 @@ public class Assignment10_month {
 		}
 			
 	public static void main(String [] args) {
-		Assignment10_month assignment10_month = new Assignment10_month();//object of class Assignment10_month
-		assignment10_month.displayMonthInfo(5);
-		assignment10_month.displayMonthInfo(2);
-		assignment10_month.displayMonthInfo(-3);
-		assignment10_month.displayMonthInfo(13);	
+		Assignment10 assignment10 = new Assignment10();//object of class Assignment10
+		assignment10.displayMonthInfo(5);
+		assignment10.displayMonthInfo(2);
+		assignment10.displayMonthInfo(-3);
+		assignment10.displayMonthInfo(13);	
 	}//main method calling display method	
 }
 		
