@@ -16,7 +16,7 @@ package harish.ifelsedemo;
  * debited. Your current balance is 3000 rs.
  */
 
-public class BankOperationAssignment8 {
+public class Assignment8 {
 	int balance;
 
 	void initBalance(int balance) {
@@ -46,7 +46,7 @@ public class BankOperationAssignment8 {
 	}
 
 	public static void main(String[] args) {
-		BankOperationAssignment8 bankDetailsAssignment8 = new BankOperationAssignment8();
+		Assignment8 bankDetailsAssignment8 = new Assignment8();
 		bankDetailsAssignment8.initBalance(5000);
 		bankDetailsAssignment8.creditAmount(2000);
 		bankDetailsAssignment8.debitAmount(9500);
