@@ -19,7 +19,7 @@ package harish.basicsdemo;
  * -> displayOtherInfo() -> displayAll
  */
 
-public class EmployeeDetailsAssignment7 {
+public class Assignment7 {
 	String firstName, lastName, address, phoneNumber;
 	int employeeId, managerId;
 	
@@ -63,12 +63,12 @@ public class EmployeeDetailsAssignment7 {
 	}
 
 	public static void main(String[] args) {
-		EmployeeDetailsAssignment7 employeeDetailsAssignment7 = new EmployeeDetailsAssignment7();
-		employeeDetailsAssignment7.updatePrimaryInfo("Harish","Rahangdale",101,999);
-		employeeDetailsAssignment7.updateSecondaryInfo("Pune, MH", "+91-8237061139");
-		employeeDetailsAssignment7.displayPrimaryInfo();
-		employeeDetailsAssignment7.displayOtherInfo();
-		employeeDetailsAssignment7.displayAllInfo();
+		Assignment7 assignment7 = new Assignment7();
+		assignment7.updatePrimaryInfo("Harish","Rahangdale",101,999);
+		assignment7.updateSecondaryInfo("Pune, MH", "+91-8237061139");
+		assignment7.displayPrimaryInfo();
+		assignment7.displayOtherInfo();
+		assignment7.displayAllInfo();
 	}
 
 }
