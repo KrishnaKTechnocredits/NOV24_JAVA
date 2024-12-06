@@ -19,7 +19,7 @@ class Assignment20 {
         System.out.println("Orignal string as :"+str);
         System.out.println("Provided Char is :"+at);
         for(int index=0; index<=str.length()-1; index++) {
-            if(str.charAt(index)=='A') {
+            if(str.charAt(index)==at) {
                 Count++;
             }
          }
