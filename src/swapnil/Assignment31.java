@@ -3,7 +3,7 @@ package swapnil;
 public class Assignment31 {
 	int diff;
 		
-		int getEvenOddDigitSum(String str) {
+		void getEvenOddDigitSum(String str) {
 			int oddSum=0;
 			int evenSum = 0;
 			
@@ -23,12 +23,11 @@ public class Assignment31 {
 				}
 			}
 			diff = oddSum-evenSum;
-			return (diff);	
+				
 		}
 		public static void main(String[] args) {
 			Assignment31 assignment31 = new Assignment31();
 			assignment31.getEvenOddDigitSum("te1ch2no3cre7dits");
-			
 			System.out.println(assignment31.diff);
 			assignment31.getEvenOddDigitSum("4563");
 			System.out.println(assignment31.diff);
