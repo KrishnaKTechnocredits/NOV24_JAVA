@@ -17,7 +17,7 @@ public class DiffOfSumOddEvenString {
 
 			}
 		}
-		int diffInSum = oddSum - evenSum;
+		int diffInSum = oddSum - evenSum;                //mistake this was added in loop
 		return diffInSum;
 	}
 
