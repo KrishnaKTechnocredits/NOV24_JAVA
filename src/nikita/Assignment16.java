@@ -20,7 +20,6 @@ public class Assignment16 {
 	void display(int startRange, int endRange) {
 		int count = 0;
 		int sum = 0;
-		int average;
 		System.out.println("First 3 Numbers which are divisble by 5 & 7 are: ");
 		for (int num = startRange; num<=endRange; num++) {
 			if(num%5==0 && num%7==0) {
