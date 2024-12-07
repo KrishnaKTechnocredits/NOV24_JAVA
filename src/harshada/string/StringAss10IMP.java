@@ -26,7 +26,6 @@ public class StringAss10IMP {
 
 	public static void main(String[] args) {
 		StringAss10IMP stringAss10IMP = new StringAss10IMP();
-		stringAss10IMP.findCharFreqfromString("technocredits", 't');
 		stringAss10IMP.findEachCharFreqInString("technocredits");
 	}
 }
