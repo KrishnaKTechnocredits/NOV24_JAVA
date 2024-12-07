@@ -1,7 +1,7 @@
 package anuja.string;
 /*Find the given character count from given string.*/
 public class Assignment20 {
-	//method to print the count of matched char, use equals and run for loop to iterate
+	//method to print the count of matched char, use == and run for loop to iterate
 	
 	int getCharFreq(String str, char ch) {
 		int count=0;
