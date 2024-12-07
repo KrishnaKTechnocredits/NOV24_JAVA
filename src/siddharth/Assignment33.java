@@ -7,8 +7,7 @@ public class Assignment33 {
 		int count = 0;
 		for (int i = 0; i < str.length(); i++) {
 			if (str.charAt(i) == ch) {
-				
-					count++;
+				count++;
 			}
 		}
 		return count;
@@ -27,7 +26,6 @@ public class Assignment33 {
 
 	public static void main(String[] args) {
 		Assignment33 assignment33 = new Assignment33();
-		assignment33.getCharFreq("AABcBBBAdeddd", 'a');
 		assignment33.printCharFreq("AABcBBBAdeddd");
 	}
 
