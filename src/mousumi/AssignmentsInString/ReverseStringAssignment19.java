@@ -15,7 +15,7 @@ output : o
          t  		 
  */
 	
-	public class ReverseStringAssignment19 {
+	public class c {
 		static void printReverseCharacters(String input) {
 		        for (int i = input.length() - 1; i >= 0; i--) {
 		            System.out.println(input.charAt(i)); 
