@@ -21,12 +21,14 @@ public class SumOfEvenDigitInString {
 	}
 
 	public static void main(String[] args) {
-		System.out.println(SumOfEvenDigitInString.evenDigitSum("te1ch2no3cre7dits"));
+		System.out.println(" Sum of even digit in String " + SumOfEvenDigitInString.evenDigitSum("te1ch2no3cre7dits"));
 	}
 
 }
 
 /*
+ * Assignment - 30 : 2nd Dec'2024 [15 mins]
+ * 
  * Sum of all the even digits present in a given String.
  * 
  * 
@@ -35,4 +37,4 @@ public class SumOfEvenDigitInString {
  * input : "techno" output : 0
  * 
  * input : "4563" output : 10
- */	
+ */
