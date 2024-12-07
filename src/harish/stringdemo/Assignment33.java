@@ -1,5 +1,13 @@
 package harish.stringdemo;
 
+/**
+ * Assignment 33 - 7 Dec
+ * 
+ * Find the frequency of all upper case character in a given string
+ * 
+ * Time Taken - 5 min
+ */
+
 public class Assignment33 {
 
 	int getCharCount(String str, char ch) {
