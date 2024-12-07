@@ -28,6 +28,8 @@ public class Assignment32 {
 
 	public static void main(String[] args) {
 		Assignment32 assignment32 = new Assignment32();
-		assignment32.printFrequencyOfChars("technocredits");
+		String input = "technocredits";
+		System.out.println("Frequency Map for given string " + input + " is as below-");
+		assignment32.printFrequencyOfChars(input);
 	}
 }
