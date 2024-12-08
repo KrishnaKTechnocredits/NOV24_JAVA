@@ -2,7 +2,7 @@
 Create a class called Employee having employee name , employee age, employee salary. and print them.
 */
 
-package nikita;
+package nikita.basicdemo;
 
 public class Assignment01 {
 	

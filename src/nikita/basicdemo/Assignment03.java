@@ -11,7 +11,7 @@ creditAmt();
 display;
 output : Your current balance is 1100. */
 
-package nikita;
+package nikita.basicdemo;
 
 public class Assignment03 {
 	int balance = 1000;

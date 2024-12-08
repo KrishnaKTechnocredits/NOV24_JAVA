@@ -17,7 +17,7 @@ display();
 
 output : Your current balance is 2000.*/
 
-package nikita;
+package nikita.basicdemo;
 
 public class Assignment06 {
 	int balance;
