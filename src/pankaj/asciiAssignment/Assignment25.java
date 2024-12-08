@@ -42,6 +42,8 @@ public class Assignment25 {
 		Assignment25 A = new Assignment25();
 		int a = A.sumOf("te1ch2no3cre7dits");
 		System.out.println("The Difference between odd and even digit  ==>>" + a);
+		
+		
 
 	}
 
