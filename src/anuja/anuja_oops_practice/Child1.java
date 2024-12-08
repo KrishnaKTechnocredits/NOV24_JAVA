@@ -4,6 +4,7 @@ public class Child1 extends Parent1 {
 
 	public int m1(int x, int y) {
 			System.out.println("m1-I am from diff child ");
+
 			 m5();
 			 return 0;//non static method m1 if calls a static method which is common then , it gives preferance to static from child.
 	}
