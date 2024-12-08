@@ -10,31 +10,28 @@
 package komal.Inheritance;
 
 public class Overriding {
-
 	public static void main(String args[]) {
-
 		child c = new child();
-		c.displayData();
-
+		String str = c.displayData();
+		System.out.println(str);
 	}
 }
 
 class parent {
 	int a = 10;
 
-	void displayData() {
+	String displayData() {
 
 		System.out.println(a);
+		return "komal";
 	}
-
 }
 
 class child extends parent {
-
 	int a = 2;
 
-	public void displayData() {
-
+	public String displayData() {
 		System.out.println(a);
+		return "khopade";
 	}
 }

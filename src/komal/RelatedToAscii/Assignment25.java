@@ -11,7 +11,7 @@
 //input : "4563"
 //output : 18
 
-//sum of all the even digits present in a given String. 
+//assignment - 30 sum of all the even digits present in a given String. 
 //
 //input : "te1ch2no3cre7dits"
 //output : 2
