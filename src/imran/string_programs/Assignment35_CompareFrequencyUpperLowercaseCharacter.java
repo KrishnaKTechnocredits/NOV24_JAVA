@@ -39,7 +39,7 @@ public class Assignment35_CompareFrequencyUpperLowercaseCharacter {
 	int getFrequency(String data, char ch)
 	{
 		int count=0;
-		for(int i=1;i<data.length();i++)
+		for(int i=0;i<data.length();i++)
 		{
 			if(data.charAt(i)==ch)
 			{
