@@ -19,7 +19,7 @@ create 5 methods from which 2 methods are parameterized method (1,2).
 
 main -> updatePrimaryInfo() -> updateSecondaryInfo() -> displayPrimaryInfo() -> displayOtherInfo() -> displayAll */
 
-package nikita;
+package nikita.basicdemo;
 
 public class Assignment07 {
 	String firstName, lastName, address, phoneNumber;

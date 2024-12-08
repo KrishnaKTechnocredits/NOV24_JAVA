@@ -19,7 +19,7 @@ printstatment method call count -> 1
 
 Note : debitAmt deduct 200 rs, creditAmt increase balance by 400 rs  */
 
-package nikita;
+package nikita.basicdemo;
 
 public class Assignment05 {
 	

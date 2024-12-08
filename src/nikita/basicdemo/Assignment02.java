@@ -9,7 +9,7 @@ Answer is 45
 */
 
 
-package nikita;
+package nikita.basicdemo;
 
 public class Assignment02 {
 	

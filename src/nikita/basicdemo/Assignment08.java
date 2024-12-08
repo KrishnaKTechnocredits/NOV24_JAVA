@@ -32,7 +32,7 @@ void creditAmt(int amt){
 }
 */
 
-package nikita;
+package nikita.basicdemo;
 
 public class Assignment08 {
 	int balance;

@@ -11,7 +11,7 @@ create 5 methods.
 main -> updatePrimaryInfo() -> updateSecondaryInfo() -> displayPrimaryInfo() -> displayOtherInfo() -> displayAllInfo()
 */
 
-package nikita;
+package nikita.basicdemo;
 
 public class Assignment04 {
 	
