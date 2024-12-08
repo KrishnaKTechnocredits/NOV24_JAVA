@@ -8,7 +8,8 @@ package harish.stringdemo;
 
 public class Assignment32 {
 
-	int getCharCount(String str, char ch) {
+	/** Method to get frequency of a character in given string */
+	public int getCharacterFrequency(String str, char ch) {
 		int count = 0;
 		for (int i = 0; i < str.length(); i++) {
 			if (str.charAt(i) == ch) {
@@ -21,7 +22,8 @@ public class Assignment32 {
 	void printFrequencyOfChars(String str) {
 		for (int i = 0; i < str.length(); i++) {
 			if (str.indexOf(str.charAt(i)) == i) {
-				System.out.println("Frequency of char " + str.charAt(i) + " is - " + getCharCount(str, str.charAt(i)));
+				System.out.println(
+						"Frequency of char " + str.charAt(i) + " is - " + getCharacterFrequency(str, str.charAt(i)));
 			}
 		}
 	}
