@@ -25,6 +25,7 @@ public class Assignment34 {
 	public static void main(String[] args) {
 		Assignment34 assignment34 = new Assignment34();
 		String input = "AAB2cBB2BAd2ed3dd";
+		System.out.println("Given String is - " + input);
 		assignment34.printDigitFrequency(input);
 	}
 }

@@ -33,6 +33,7 @@ public class Assignment35 {
 	public static void main(String[] args) {
 		Assignment35 assignment35 = new Assignment35();
 		String input = "teChnOcreDits";
+		System.out.println("Given String is - " + input);
 		System.out.println(assignment35.getResult(input));
 	}
 }
