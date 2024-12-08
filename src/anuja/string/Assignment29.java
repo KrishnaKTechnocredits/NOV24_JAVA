@@ -9,11 +9,12 @@ public class Assignment29 {
 
 		System.out.println("-------------Ascii of lower alphabets from a to z --------------------------");
 		char chLower = 'A';
-		for (; chLower <= 'C'; chLower++) {
+		for (; chLower <= 'Z'; chLower++) {
 			int asciiResult = assignment29.getAscii(chLower);
-			System.out.println(chLower + " -> " + asciiResult);
+			System.out.print(chLower + " --> " + asciiResult+" ,");
 
 		}
+		System.out.println();
 		System.out.println("-------------Ascii of upper alphabets from A to Z --------------------------");
 		char chUpper = 'a';
 		for (; chUpper <= 'c'; chUpper++) {

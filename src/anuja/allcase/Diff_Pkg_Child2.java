@@ -11,7 +11,7 @@ public class Diff_Pkg_Child2 extends Parent1 {
 	
 	public static void main(String[] args) {
 		Parent1 parent1 = new Diff_Pkg_Child2();
-		parent1.m2();//public method in other class and its part of other package.
+		//parent1.m2();//public method in other class and its part of other package.
 		//parent1.m1(10);
 		parent1.m1();//sop executed from child, ovveride method.
 	}
