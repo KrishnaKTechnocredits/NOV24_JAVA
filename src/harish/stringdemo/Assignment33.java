@@ -10,20 +10,16 @@ package harish.stringdemo;
 
 public class Assignment33 {
 
-	int getCharCount(String str, char ch) {
-		int count = 0;
-		for (int i = 0; i < str.length(); i++) {
-			if (str.charAt(i) == ch) {
-				count++;
-			}
-		}
-		return count;
-	}
-
 	void printFrequencyOfUpperCaseChars(String str) {
 		for (int i = 0; i < str.length(); i++) {
 			if (str.indexOf(str.charAt(i)) == i && Character.isUpperCase(str.charAt(i))) {
-				System.out.println("Frequency of char " + str.charAt(i) + " is - " + getCharCount(str, str.charAt(i)));
+				/**
+				 * Creating object of Assignment32 class to re-use the method
+				 * getCharacterFrequency() from that class
+				 */
+				Assignment32 assignment32 = new Assignment32();
+				System.out.println("Frequency of char " + str.charAt(i) + " is - "
+						+ assignment32.getCharacterFrequency(str, str.charAt(i)));
 			}
 		}
 	}
