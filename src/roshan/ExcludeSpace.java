@@ -9,7 +9,7 @@ public class ExcludeSpace {
 			if( word.charAt(index)==' ') {
 				 a++;
 			}
-			if( word.charAt(index)!=' ') {
+			else {
 			 b++;
 			}
 		}
