@@ -24,7 +24,7 @@ input : 102
 output : Invalid score */
 
 
-package nikita;
+package nikita.ifelsedemo;
 
 public class Assignment9 {
 	

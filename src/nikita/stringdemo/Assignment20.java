@@ -10,7 +10,7 @@ int getCharFreq(String str, char ch){
 }
 */
 
-package nikita;
+package nikita.stringdemo;
 
 public class Assignment20 {
 	int getCharFreq(String str, char ch) {

@@ -13,7 +13,7 @@ sum = 210
 Average = 70
 */
 
-package nikita;
+package nikita.loopsdemo;
 
 public class Assignment16 {
 	

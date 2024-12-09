@@ -12,7 +12,7 @@ Output : Last 5 numbers divisible by 5 is :
 480 */
 
 
-package nikita;
+package nikita.loopsdemo;
 
 public class Assignment17 {
 	
