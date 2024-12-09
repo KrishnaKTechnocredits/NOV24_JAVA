@@ -6,7 +6,7 @@ input : prem lata gupta
 output : length without space is 13 and space characters are 2. 
 */
 
-package nikita;
+package nikita.stringdemo;
 
 public class Assignment21 {
 	

@@ -21,7 +21,7 @@ for(; startRange<=endRange; startRange++){
 }
 } */
 
-package nikita;
+package nikita.loopsdemo;
 
 public class Assignment12 {
 	

@@ -18,7 +18,7 @@ output: invalid month index, it can't be negative.
 input : 13
 output: invalid month index, it can't be greater than 13. */
 
-package nikita;
+package nikita.ifelsedemo;
 
 public class Assignment10 {
 	
