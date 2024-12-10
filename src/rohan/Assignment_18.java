@@ -13,8 +13,8 @@ public class Assignment_18 {
 			if (EndRange % 5 == 0) {
 				System.out.println(EndRange + " is a last number divisiable by 5");
 				count++;
-				if (count == 1)
-					break;
+				count = 1;
+				break;
 			}
 		}
 
