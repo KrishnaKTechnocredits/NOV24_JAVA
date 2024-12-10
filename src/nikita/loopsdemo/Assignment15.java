@@ -10,7 +10,7 @@ Output : First 3 numbers divisible by 3 and 4 is :
 36 */
 
 
-package nikita;
+package nikita.loopsdemo;
 
 public class Assignment15 {
 	

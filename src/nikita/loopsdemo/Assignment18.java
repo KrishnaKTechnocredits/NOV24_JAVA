@@ -12,7 +12,7 @@ Output : 495 is the last number which is div by 5 in the given range.
 
 */
 
-package nikita;
+package nikita.loopsdemo;
 
 public class Assignment18 {
 	

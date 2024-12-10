@@ -7,7 +7,7 @@ Output : Divisible by 5 & 3, numbers are:
 30 */
 
 
-package nikita;
+package nikita.loopsdemo;
 
 public class Assignment13 {
 

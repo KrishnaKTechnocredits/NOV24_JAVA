@@ -7,7 +7,7 @@ Input : Range -> 1 to 60
 Output : In the range 1 to 70, calculated sum is 150
          In the range 1 to 70, 4 numbers are divisible by 3 and 5. */
 
-package nikita;
+package nikita.loopsdemo;
 
 public class Assignment14 {
 	

@@ -10,7 +10,7 @@ num1 : 10
 num2 : 17
 output : 17 is bigger between 10 and 17.*/
 
-package nikita;
+package nikita.ifelsedemo;
 
 public class Assignment11 {
 	void printMinimumNumber(int num1, int num2) {
