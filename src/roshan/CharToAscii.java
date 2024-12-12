@@ -2,7 +2,7 @@ package roshan;
 
 public class CharToAscii {
 	static int getAsciiOfChar(char ch) {
-		int asciiValue = ch; // note- dont add ch in ""/''
+		int asciiValue = ch; // note- dont add ch in "" or ''(when character assign to intiger it will return ascii value
 		return asciiValue;
 	}
 
