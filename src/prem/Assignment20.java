@@ -4,16 +4,13 @@ public class Assignment20 {
 	static int count;
 	
 	int getCharFreq(String str, char ch) {
-		for(int i=0;i<=str.length();i++) {
+		for(int i=0;i<str.length();i++) {
 			char temp= str.charAt(i);
 			  if (temp== ch) {
 				count++;
-				if (i==str.length()-1){
-				return count;
-				}
-			  }	  
-		}
-		return 0;
+			  } 
+		}	  
+		return count;
 	}
 	
 	public static void main(String[] args) {
