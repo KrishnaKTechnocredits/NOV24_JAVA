@@ -5,8 +5,8 @@ public class Assignment22 {
 	
 	int getTotalNumDigit(String str) {
 		for(int i=0;i<=str.length()-1;i++){
-			boolean isStrDigit=Character.isDigit(str.charAt(i));
-		    if (isStrDigit) {
+       	boolean flag =Character.isDigit(str.charAt(i));
+          if (flag == true) {
 			count++;			
 		    }
 		}
