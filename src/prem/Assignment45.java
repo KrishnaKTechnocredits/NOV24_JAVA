@@ -3,11 +3,13 @@ package prem;
 public class Assignment45 {
 	
 	void pattern() {
+		String pattern1 ="#*#";
+		String pattern2 ="#*#*#";		
 		for (int i =1; i<=4;i++){
 			if(i%2==0) {
-				System.out.println("#*#");
+				System.out.println(pattern1);
 			}else {
-				System.out.println("#*#*#");
+				System.out.println(pattern2);
 			}
 			
 		}
