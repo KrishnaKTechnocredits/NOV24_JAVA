@@ -24,7 +24,7 @@ public class UcaseLcaseAssignment23 {
 			} else {
 				scount++;
 			}
-		}
+		} 
 		System.out.println("uppercase ->" + ucount);
 		System.out.println("lowerercase ->" + lcount);
 		System.out.println("Digit ->" + dcount);
