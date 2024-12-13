@@ -17,7 +17,7 @@ public class Assignment44 {
 				}
 				
 			}
-			System.out.println("\n");
+			System.out.println();
 		}
 	}
 	public static void main(String[] args) {
