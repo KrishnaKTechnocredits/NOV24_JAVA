@@ -36,6 +36,13 @@ public class CountOfEachChar {
 }
 
 
+/*
+ * V.imp Assignment 32: Find count of each character in the given string :input
+ * -AAkansha //logic of the program: //we need to count of selected character in
+ * the string //we need to run loop so that it will perform same task for all
+ * characters in the string using string class index of method.
+ * 
+ */
 
 
 
