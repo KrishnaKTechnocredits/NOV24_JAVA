@@ -1,6 +1,6 @@
 package ajay_PatternAssignments38to44;
 
-public class Pattern7 {
+public class Assignment44 {
 
 	    void patternPrinting() {
 	        int i, j;
@@ -18,7 +18,7 @@ public class Pattern7 {
 	    }
 
 	    public static void main(String[] args) {
-	        Pattern7 pattern7 = new Pattern7();
+	        Assignment44 pattern7 = new Assignment44();
 	        pattern7.patternPrinting(); 
 	    }
 	}

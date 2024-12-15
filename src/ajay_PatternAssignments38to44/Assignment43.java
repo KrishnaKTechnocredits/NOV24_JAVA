@@ -1,26 +1,21 @@
-/*
-Print pattern below 
-1
-2 2
-3 3 3
-4 4 4 4
-*/
 package ajay_PatternAssignments38to44;
 
-public class Pattern5 {
-
+public class Assignment43 {
+	
 	void patternPrinting() {
-
+		char count='A';
 		for(int i=1;i<=4;i++) {
+			
 			for(int j=1;j<=i;j++) {
-				System.out.print(i +" ");	
-
+				System.out.print(count +" ");
+				count++;
 			}System.out.println();
 		}
 	}
+
 	public static void main(String[] args) {
-		Pattern5 pattern5=new Pattern5();
-		pattern5.patternPrinting();
+		Assignment43 pattern6=new Assignment43();
+		pattern6.patternPrinting();
 
 	}
 

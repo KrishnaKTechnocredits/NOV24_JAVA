@@ -11,7 +11,7 @@ Print Pattern Below
 
 package ajay_PatternAssignments38to44;
 
-public class Pattern4 {
+public class Assignment41 {
 	
 	void patternPrinting() {
 		
@@ -27,7 +27,7 @@ public class Pattern4 {
 	
 
 	public static void main(String[] args) {
-		Pattern4 pattern4=new Pattern4();
+		Assignment41 pattern4=new Assignment41();
 		pattern4.patternPrinting();
 
 	}
