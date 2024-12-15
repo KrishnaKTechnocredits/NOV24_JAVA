@@ -31,3 +31,4 @@ public class FreqOfAllCharOnce {
 	
 }
 
+//write loop inside loop (nested for loop), and print frequency of each character. 

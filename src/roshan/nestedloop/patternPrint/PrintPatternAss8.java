@@ -3,7 +3,7 @@ package roshan.nestedloop.patternPrint;
 public class PrintPatternAss8 {
 	static void printPattern() {
 		int count=0;
-		for (int i = 1; i <= 5; i--) {
+		for (int i = 1; i <= 5; i++) {
 			if(i%2==0) {
 			count=3;
 			}else {
