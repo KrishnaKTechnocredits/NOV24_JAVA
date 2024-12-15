@@ -3,7 +3,7 @@ package ashwini.ArrayProgram;
 public class ArrayAssignment46 {
 	void midCharName() {
 		String[] names = {"Rohan", "Premlata", "Anuja", "Fazrana"};
-		for(int index=0;index<names.length;index++) {
+		for(int index=0;index< names.length;index++) {
 			if((names[index].length()) % 2==0){
 			System.out.println(names[index]+"-->"+ names[index].charAt((names[index].length()/2)-1));	
 		}else {
