@@ -4,7 +4,7 @@ public class Assignment29 {
 	
 	void upperCaseAscii() {
 		for(char ch='A';ch<='Z';ch++) {
-		int ascii=(char)ch;
+		int ascii=ch;
 		System.out.println(ch +" -> " +ascii);
 		}
 	}
@@ -12,16 +12,15 @@ public class Assignment29 {
 	void lowerCaseAscii() {
 		System.out.println("---------------------------------------------------------------------");
 		for(char ch='a';ch<='z';ch++) {
-		int ascii=(char)ch;
+		int ascii=ch;
 		System.out.println(ch +" -> " +ascii);
 		}
 	}
 	
 	void numberAscii() {
 		System.out.println("---------------------------------------------------------------------");
-		for(int i=0;i<=9;i++) {
-		int ascii=(int)i;
-		System.out.println(i +" -> " +ascii);
+		for(char i='0';i<='9';i++) {
+		System.out.println(i +" -> " +(int)i);
 		}
 	}
 	
