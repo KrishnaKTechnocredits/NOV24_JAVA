@@ -3,26 +3,15 @@ package rushikesh.printPatternProgram;
 public class Assignment_44 {
 
 	void printPatternMethod() {
-		int count = 0;
-		for (int index = 1; index <= 5; index++) {
-			for (int innerIndex = 1; innerIndex <= index; innerIndex++) {
-				if (count == 0 && index == 1) {
-					System.out.println("*");
-					count++;
-				} else if (count == 1 && index == 2) {
-					System.out.println("*" + " #");
-					count++;
-				} else if (count == 2 && index == 3) {
-					System.out.println("#");
-					count++;
-				} else if (count == 3 && index == 4) {
-					System.out.println("#" + " #");
-					count++;
-				} else if (count == 4 && index == 5) {
-					System.out.println("#" + " #" + " *");
-					count++;
+		for (int i = 1; i <= 5; i++) {
+			for (int j = 1; j <= i; j++) {
+				if (j % 2 == 0) {
+					System.out.print("#" + " ");
+				} else {
+					System.out.print("*" + " ");
 				}
 			}
+			System.out.println();
 		}
 	}
 
