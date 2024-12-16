@@ -3,7 +3,7 @@ package anuja.string;
 /*get frequency of all digit*/
 public class Assignment34 {
 
-	public int getFreqOfAllChar(String str, char ch) {
+	public void getFreqOfAllChar(String str, char ch) {
 		int count = 0;
 		for (int i = 0; i < str.length(); i++) {
 			if (ch == str.charAt(i)) {
@@ -12,7 +12,7 @@ public class Assignment34 {
 
 		}
 		System.out.println(ch + " --> " + count);
-		return count;// get frequency
+		//return count;// get frequency
 	}
 
 	public void printFreqOfAllDigits(String str) {
