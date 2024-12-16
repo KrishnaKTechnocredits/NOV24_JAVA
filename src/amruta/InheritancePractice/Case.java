@@ -66,5 +66,22 @@ public class Case {
 		System.out.println("Parent p2 = new Parent();");
 		System.out.println("Child c2 = new Child();");
 		System.out.println("p2 = c2; // Again Dynamic Polymorphism ");
+
+		// -------------------- CASE 6 -------------------
+
+		System.out.println("\n----------------- CASE 6 -----------------");
+
+		Parent p3 = new Child();
+		Child c3 = new Child();
+		
+		c3 = (Child)p3;   //Case 2
+		
+		System.out.println(c3.x);	
+		System.out.println(c3.y);	
+		System.out.println(c3.z);	
+		
+		c3.m1();	
+		c3.m2();		
+		c3.m3();		
 	}
 }
