@@ -40,11 +40,6 @@ public class PrintPatternAss8 {
 
 
 
-
-
-
-
-
 //Assignment - 45 : 10th Dec 
 //#*#*#
 //#*#
