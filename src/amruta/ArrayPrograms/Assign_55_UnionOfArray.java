@@ -32,9 +32,11 @@ public class Assign_55_UnionOfArray {
 
 	public static void main(String[] args) {
 		int[] arr1 = { 10, 19, 18 };
+		System.out.println("Array 1 --> { 10, 19, 18 }");
 		int[] arr2 = { 99, 8 };
+		System.out.println("Array 2 --> { 99, 8 }");
 		int[] op = returnUnionOfArray(arr1, arr2);
-		System.out.println("Unioin of Array --> ");
+		System.out.println("\nUnioin of Array --> ");
 		for (int index = 0; index < op.length; index++) {
 			System.out.print(op[index] + " ");
 		}
