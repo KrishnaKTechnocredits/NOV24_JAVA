@@ -28,5 +28,4 @@ public class Assignment49 {
 		int MaxNum = a49.getMaximumNumber(inputforMax);
 		System.out.println("Maximum number is: " + MaxNum);
 	}
-
 }
