@@ -17,7 +17,7 @@ public class Assignment55_ReturnUnionOfArray {
 		System.out.println("The Second Array is :");
 		for(int k=0;k<=data_1.length-1;k++)
 		{
-			newArr[count] = data[k];
+			newArr[count] = data_1[k];
 			count++;
 			System.out.print(data_1[k] + "  ");
 		}
