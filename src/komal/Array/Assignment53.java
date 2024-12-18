@@ -9,6 +9,7 @@
 //		 22
 //		 34
 //		 10
+//Assignmen54 : return reverse array
 
 package komal.Array;
 
@@ -40,7 +41,6 @@ public class Assignment53 {
 		for (int i = 0; i < input.length; i++) {
 			System.out.println(outputArray[i]);
 		}
-
 	}
 
 }

@@ -13,7 +13,7 @@ public class Assignment49 {
 	int getMaximumNumber(int[] input) {
 
 		int maxNum = input[0];
-		for (int i = 0; i < input.length; i++) {
+		for (int i = 1; i < input.length; i++) {
 
 			if (maxNum < input[i]) {
 				maxNum = input[i];
@@ -28,5 +28,4 @@ public class Assignment49 {
 		int MaxNum = a49.getMaximumNumber(inputforMax);
 		System.out.println("Maximum number is: " + MaxNum);
 	}
-
 }
