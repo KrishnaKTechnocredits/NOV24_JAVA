@@ -47,15 +47,12 @@ public class Assignment10 {
 			}
 		}
 	
-
-	
 	public static void main(String[] args) {
 		Assignment10 assignment10=new Assignment10();
 		assignment10.printDetails(5);
 		assignment10.printDetails(2);
 		assignment10.printDetails(-3);
-		assignment10.printDetails(15);
-		
+		assignment10.printDetails(15);		
 	}	
 }
 
