@@ -14,6 +14,16 @@ public class Parent1 {
 	static void m5() {
 		System.out.println(" m5I am static method from parent1");
 	}
+	//method with int return type
+	int printAdd() {
+		double a = 10;
+		double b = 0;
+		int sum =  (int) (a+b);
+		return sum;
+		
+	}
+	
+
 
 }
 
