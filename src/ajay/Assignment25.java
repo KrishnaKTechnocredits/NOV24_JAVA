@@ -13,7 +13,6 @@ public class Assignment25 {
 	
 	void findChar(String input) {
 		int sum=0;
-		int count=0;
 		for(int i=0;i<input.length();i++) {
 			char ch=input.charAt(i);
 			if(Character.isDigit(ch)) {
