@@ -11,7 +11,7 @@ output : 99
 		 34
 		 10
  */
-package src;
+package rohan;
 
 public class Assignment_54 {
 
