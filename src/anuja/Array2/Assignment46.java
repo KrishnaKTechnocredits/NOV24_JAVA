@@ -9,24 +9,34 @@ Premlata -> m
 Anuja -> u
 Fazrana -> r */
 public class Assignment46 {
+	
+	char middleCh;
 
-	public void getMiddleCharFromString(String[] name) {
-		for (int i = 0 ; i<name.length;i++) {
-			int middlechar = name[i].length()/2;
-			if(name[i].length()/2 % 2 == 0) {
-				System.out.println(name[i].charAt(i)+"--"+name[i]);
-				}
-			else {
-				int len1= name[i].length()+1/2;
-				i=len1/2;
-				System.out.println(name[i].charAt(i)+"--"+name[i]);
+	public char getMiddleCHarFromStringOfArray(String[] names) {
+		
+		
+		
+		for(int i = 0; i<names.length ; i++) {
+			int strLength = names[i].length();
+			if(names[i].length()%2 == 0) {
+				middleCh = names[i].charAt(strLength/2-1);
+				System.out.println(names[i]+ " -- >" +middleCh);
 			}
+			else{
+				middleCh = names[i].charAt(strLength/2);
+				System.out.println(names[i]+ " -- >" +middleCh);
+				
+			}
+			
 		}
+		return middleCh;
+		
 	}
 	
 	public static void main(String[] args) {
-		Assignment46 assignment46 = new Assignment46();
+		Assignment46  assignment46 = new Assignment46();
 		String[] names = {"Rohan", "Premlata", "Anuja", "Fazrana"};
-		assignment46.getMiddleCharFromString(names);
+		assignment46.getMiddleCHarFromStringOfArray(names);
 	}
+
 }
