@@ -20,10 +20,21 @@ public class Child1 extends Parent1 {
 		return 0;
 	}
 	
-	@Override
+	
 	public double m2(double x, double y) {
 		System.out.println(" ******M2 am from child int m2 ");
 		return 0;
+	}
+	
+	@Override
+	
+	int printAdd() {
+		int a = 10;
+		int b = 0;
+		int c =10;
+		int sum =  a+b+c;
+		return sum;
+		
 	}
 	
 	public static void main(String[] args) {
@@ -31,7 +42,8 @@ public class Child1 extends Parent1 {
 		parent1.m1();
 		parent1.m2(5,6);
 		parent1.m2(5.8,6.7);
-//		/parent1.m5();
-		
+		int sum1 = parent1.printAdd();
+		System.out.println(sum1);
+//		/parent1.m5();	
 	}
 }
