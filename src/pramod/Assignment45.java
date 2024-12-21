@@ -11,15 +11,22 @@ package pramod;
 class Assignment45 {
 
 	void printPattern() {
-		String String1 = "# * # * #";
-		String String2 = "# * #";
+
 		for (int i = 1; i < 5; i++) {
-			for (int j = 1; j >= 1; j--) {
-				if (i % 2 == 0) {
-					System.out.println(String2);
-				} else
-					System.out.println(String1);
+			int flag = 0;
+			if (i % 2 == 0) {
+				flag = 3;
+			} else
+				flag = 5;
+			for (int j = 1; j < flag; j++) {
+				if (j % 2 == 0) {
+					System.out.print("* ");
+				}
+
+				else
+					System.out.print("# ");
 			}
+			System.out.println("# ");
 		}
 	}
 
