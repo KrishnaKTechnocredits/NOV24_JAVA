@@ -39,12 +39,15 @@ public class Assignment56_2 {
 
 	public static void main(String[] args) {
 		int[] input1 = { 10, 55, 22, 77, 88 };
-		int[] input2 = { 5, 102, 28, 77, 18 };
+		int[] input2 = { 5, 102, 28, 77 };
 
 		Assignment56_2 assignment56_2 = new Assignment56_2();
 
+		System.out.println("Given Input Arrays -\n" + Arrays.toString(input1) + "\n" + Arrays.toString(input2));
+
 		try {
 			int[] maxNumFromTwoArrays = assignment56_2.getMaxNumFromTwoArrays(input1, input2);
+			System.out.println("Array having maximum number from each index of given two arrays - ");
 			System.out.println(Arrays.toString(maxNumFromTwoArrays));
 		} catch (IllegalArgumentException e) {
 			System.out.println("Error: " + e.getMessage());

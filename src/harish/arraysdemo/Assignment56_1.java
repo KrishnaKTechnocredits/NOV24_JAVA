@@ -46,8 +46,11 @@ public class Assignment56_1 {
 		// Get the result array
 		int[] maxNumFromTwoArrays = assignment56_1.getMaxNumFromTwoArrays(input1, input2);
 
+		System.out.println("Given Input Arrays -\n" + Arrays.toString(input1) + "\n" + Arrays.toString(input2));
+
 		// If arrays were valid (lengths matched), print the result
 		if (maxNumFromTwoArrays.length > 0) {
+			System.out.println("Array having maximum number from each index of given two arrays - ");
 			System.out.println(Arrays.toString(maxNumFromTwoArrays));
 		}
 	}
