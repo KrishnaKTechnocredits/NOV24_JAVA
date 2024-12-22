@@ -10,19 +10,19 @@ package harshada.Array3;
 import java.util.Arrays;
 
 public class ArrayAss7 {
-	
+
 	int[] getReverseArray(int[] arr) {
-		int[] output= new int[arr.length];
-		for(int j=arr.length-1,i=0;j>=0 ;j--,i++) {
-			output[i]=arr[j];
+		int[] output = new int[arr.length];
+		for (int j = arr.length - 1, i = 0; j >= 0; j--, i++) {
+			output[i] = arr[j];
 		}
-		return output;		
+		return output;
 	}
-	
+
 	public static void main(String[] args) {
-		ArrayAss7 arrayAss7=new ArrayAss7();
-		int[] input={10,55,22,77,88};
-		int[] output=arrayAss7.getReverseArray(input);
+		ArrayAss7 arrayAss7 = new ArrayAss7();
+		int[] input = { 10, 55, 22, 77, 88 };
+		int[] output = arrayAss7.getReverseArray(input);
 		System.out.println(Arrays.toString(output));
 	}
 }
