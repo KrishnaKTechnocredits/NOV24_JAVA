@@ -19,7 +19,8 @@ public class ReturnMaxNumberFromArray {
 	}
 }
 
-/*
+/*Assignment - 49 : 16th Dec'2024 [15 mins] [imp]
+
  * return the maximum number from given array. IMP
  * 
  * input : {44,45,22,25,47,29,46} output : 47
