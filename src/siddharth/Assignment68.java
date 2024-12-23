@@ -8,7 +8,7 @@ output : TNOC11echredits
  */
 public class Assignment68 {
 	
-	void RearrangeString(String word) {
+	void rearrangeString(String word) {
 		String output1="";
 		int output2=0;
 		String output3="";
