@@ -1,6 +1,6 @@
-package ajay;
+package ajay_StringAssignment;
 
-public class Assignment32 {
+public class Assignment37 {
 
     void getFreqChar(String input) {
         for (int i = 0; i < input.length(); i++) {
@@ -18,7 +18,7 @@ public class Assignment32 {
     }
 
     public static void main(String[] args) {
-        Assignment32 assignment32 = new Assignment32();
-        assignment32.getFreqChar("aakanksha");
+        Assignment37 assignment37 = new Assignment37();
+        assignment37.getFreqChar("aakanksha");
     }
 }
