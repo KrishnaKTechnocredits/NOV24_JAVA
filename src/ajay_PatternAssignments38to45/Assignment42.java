@@ -5,7 +5,7 @@ Print pattern below
 3 3 3
 4 4 4 4
 */
-package ajay_PatternAssignments38to44;
+package ajay_PatternAssignments38to45;
 
 public class Assignment42 {
 
