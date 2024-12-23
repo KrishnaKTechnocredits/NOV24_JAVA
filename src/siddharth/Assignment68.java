@@ -31,7 +31,7 @@ public class Assignment68 {
 	public static void main(String[] args) {
 		Assignment68 assignment68 = new Assignment68();
 		String input="Te1ch6NOCre4dits";
-		assignment68.RearrangeString(input);
+		assignment68.rearrangeString(input);
 	}
 }
 
