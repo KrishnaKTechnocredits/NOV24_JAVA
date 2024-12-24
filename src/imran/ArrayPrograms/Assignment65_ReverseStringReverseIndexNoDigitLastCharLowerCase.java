@@ -15,9 +15,9 @@ public class Assignment65_ReverseStringReverseIndexNoDigitLastCharLowerCase {
 		String[] revStringArray = new String[data.length];
 		for(int i=0, j=data.length-1;i<data.length ;i++, j--)
 		{
-			revStringArray[i] = reverseWord(data[i]);
-			revStringArray[i] = noDigit(revStringArray[i]);
-			revStringArray[i] = firstCharUpperLastCharLower(revStringArray[i]);
+			revStringArray[j] = reverseWord(data[i]);
+			revStringArray[j] = noDigit(revStringArray[j]);
+			revStringArray[j] = firstCharUpperLastCharLower(revStringArray[j]);
 		}
 		System.out.println(" The Result String Array is " + Arrays.toString(revStringArray));
 	}
