@@ -2,7 +2,6 @@ package roshan.Array2;
 
 public class PrintMaxAndMin {
 
-	private static PrintMaxAndMin printmaxandmin;
 
 	void getMaxMinNo(int[] number) {
 		int minnum = number[0];
@@ -22,7 +21,7 @@ public class PrintMaxAndMin {
 
 	public static void main(String[] args) {
 		int[] number = { 10, 20, 30, 40, 50, 60, 70 };
-		PrintMaxAndMin.printmaxandmin = new PrintMaxAndMin();
+		PrintMaxAndMin printmaxandmin = new PrintMaxAndMin();
 		printmaxandmin.getMaxMinNo(number);
 
 	}

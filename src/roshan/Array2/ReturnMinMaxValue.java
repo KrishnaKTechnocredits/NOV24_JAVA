@@ -2,7 +2,7 @@ package roshan.Array2;
 
 public class ReturnMinMaxValue {
 
-	static int[] rMinMAxValue (int []number) {
+	static int[] rMinMAxValue (int [] number) {
 		 int minNum= number[0];
 		 int maxNum= number[0];
 		 int [] output= new int[2];

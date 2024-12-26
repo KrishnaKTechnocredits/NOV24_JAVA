@@ -1,4 +1,4 @@
-package roshan.Array2;
+resultpackage roshan.Array2;
 
 public class ReturnArraylnReverseOrder {
 	int[] returnReverseArray(int[] number) { // note add int [] only int will give array
