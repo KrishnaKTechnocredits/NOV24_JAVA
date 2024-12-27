@@ -24,8 +24,8 @@ public class Assignment_64 {
 		String word = "";
 		for (int i = str.length() - 1; i >= 0; i--) {
 			word += str.charAt(i);
-			word = word.substring(0, 1).toUpperCase() + word.substring(1).toLowerCase();
 		}
+		word = word.substring(0, 1).toUpperCase() + word.substring(1).toLowerCase();
 		return word;
 	}
 
