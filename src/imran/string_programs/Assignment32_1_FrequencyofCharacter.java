@@ -5,7 +5,7 @@ public class Assignment32_1_FrequencyofCharacter {
 	void getData(String data)
 	{
 		System.out.println("The Given String is: " +  data);
-		System.out.println("The Frequency of Each Character in string are as followes");
+		System.out.println("The Frequency of Each Character present in string are as follows");
 		for(int i=0;i<data.length();i++)
 		{
 			char ch= data.charAt(i);

@@ -5,7 +5,7 @@ public class Assignment33_FrequencyOfUpperCaseCharacter {
 	void getDataFrequency(String data)
 	{
 		System.out.println("The Given String is: " +  data);
-		System.out.println("The Frequency of Each UpperCase Character in string are as followes");
+		System.out.println("The Frequency of Each UpperCase Character in string are as follows");
 		for(int i=0;i<data.length();i++)
 		{
 			char ch= data.charAt(i);

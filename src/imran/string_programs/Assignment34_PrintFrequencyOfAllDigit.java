@@ -35,6 +35,6 @@ public class Assignment34_PrintFrequencyOfAllDigit {
 	
 	public static void main(String[] args) {
 		Assignment34_PrintFrequencyOfAllDigit assignment34_PrintFrequencyOfAllDigit_1 = new Assignment34_PrintFrequencyOfAllDigit();
-		assignment34_PrintFrequencyOfAllDigit_1.getDataFrequency("Imran 17 Ahmed 06 Ansari 1996");
+		assignment34_PrintFrequencyOfAllDigit_1.getDataFrequency("Imran 17 Ahmed 06 Ansari 1996 ");
 	}
 }

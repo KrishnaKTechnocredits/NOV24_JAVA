@@ -4,6 +4,7 @@ public class Assignment33_FreqUpperCaseUsing2Function {
 
 	void getData(String data)
 	{
+		System.out.println("The Given String is : "+ data);
 		for(int i=0;i<data.length();i++)
 		{
 			char ch= data.charAt(i);
