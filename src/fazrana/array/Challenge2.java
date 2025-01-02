@@ -21,9 +21,10 @@ public class Challenge2 {
 				if(count>1) {
 					output=true;
 					break;
-				}else {
-					output=false;
 				}
+//					else {
+//					output=false;
+//				}
 			}
 		}
 		return output;
