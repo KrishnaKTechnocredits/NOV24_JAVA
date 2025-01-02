@@ -25,8 +25,6 @@ public class ReturnSecondLongestStringFromArray {
 			}
 		}
 
-		// System.out.println(longest);
-		printAllWordOfSecondLongest(strArray, secondLongest.length());
 		return secondLongest;
 	}
 
@@ -44,6 +42,6 @@ public class ReturnSecondLongestStringFromArray {
 		String[] strArray = { "Tech", "Tecg", "Technocredits", "aashvi", "GlobantPune", "Ashvik", "PuneGlobant", "Pune",
 				"PuGlabantne" };
 		String str = returnSecondLongestStringFromArray.reurnSecondLongestSTringFromStringArray(strArray);
-		// System.out.println("Longest String in Array :- " + str);
+		System.out.println("Second longest string in array:--" + str);
 	}
 }
