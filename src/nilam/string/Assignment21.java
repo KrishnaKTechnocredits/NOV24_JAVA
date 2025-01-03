@@ -1,4 +1,5 @@
 package nilam.string;
+//Find the length of the given string excluding space. 
 
 public class Assignment21 {
 	
