@@ -1,5 +1,5 @@
 package nilam.Array;
-
+//return union of given two array.
 public class Assignment55 {
 	
 	int[] unionOfArray(int[] arr1,int[] arr2) {
@@ -18,7 +18,7 @@ public class Assignment55 {
 	
 	public static void main(String[] args) {
 		Assignment55 assignment55=new Assignment55();
-		int[] arr1= {100,10,19,18},arr2= {99,8};
+		int[] arr1= {10,19,18},arr2= {99,8};
 		int[] unionArray=assignment55.unionOfArray(arr1,arr2);
 			for(int i=0;i<unionArray.length;i++) {
 				System.out.println(unionArray[i]);

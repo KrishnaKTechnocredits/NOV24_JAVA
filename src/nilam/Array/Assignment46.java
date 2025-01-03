@@ -1,5 +1,5 @@
 package nilam.Array;
-
+//Print middle character of all the names from given String array.
 public class Assignment46 {
 	
 	 void printCharOfName(String name[]) {

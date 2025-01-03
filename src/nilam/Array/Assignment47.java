@@ -1,5 +1,5 @@
 package nilam.Array;
-
+//Print only names having length more than 6 characters from given String array.
 public class Assignment47 {
 	
 	void printNames(String[] name) {

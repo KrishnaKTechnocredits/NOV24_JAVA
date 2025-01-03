@@ -1,5 +1,5 @@
 package nilam.Array;
-
+//return the array having elements in reverse order of original array.
 public class Assignment54 {
 	int[] reverseArray(int[] numArray) {
 		int[] revArray=new int[numArray.length];

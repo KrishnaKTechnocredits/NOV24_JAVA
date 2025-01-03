@@ -1,4 +1,4 @@
-package nilam;
+package nilam.basics;
 
 public class Calculator {
 	

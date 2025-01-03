@@ -1,5 +1,5 @@
 package nilam.Array;
-
+//return maximum and minimum number from given array.
 public class Assignment52 {
 	
 	int[] getMaxMinNum(int[] numArray) {
