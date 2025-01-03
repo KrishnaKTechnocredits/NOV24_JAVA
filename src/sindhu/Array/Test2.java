@@ -22,36 +22,34 @@ public class Test2 {
 		return revStr;
 	}
 	
-	boolean isVowelsMoreThan1(String str1) {
+	String isVowelsMoreThan1(String str1) {
 		char[] vowels = {'a','e','o','i','u'};
+		int count = 0;
 		for(int j=0;j<str1.length();j++) {
 			char ch = str1.charAt(j);
 			for(int k=0; k<vowels.length;k++) {
 				if(ch==vowels[k]) {
-					return true;
+					count++;
 				}
 			}
+			if(count>1){
+				return getReverseString(str1);
+			}
 		}
-		return false;
+		return str1;
 	}
 	
 	String[] callRevStringArray(String[] input) {
 		String[] output = new String[input.length];
 		
 		for(int i=0; i<input.length; i++) {
-			String str1 = input[i];
-			if(isVowelsMoreThan1(str1)) {
-				output[i] = getReverseString(str1);
-			}else {
-				output[i]=input[i];
-			}
+			output[i] = isVowelsMoreThan1(input[i]);
 		}
 		return output;
 	}
 	
 	public static void main(String[] args) {
 		String[] input = {"apple", "sky", "orange", "try", "eagle"};
-		//char[] vowels = {'a','e','o','i','u'};
 		Test2 test2 = new Test2();
 		System.out.println("Input array is: "+Arrays.toString(input));
 		String[] output = test2.callRevStringArray(input);
