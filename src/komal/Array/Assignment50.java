@@ -15,7 +15,7 @@ public class Assignment50 {
 
 	int getMinimumNumber(int[] input) {
 		int minNum = input[0];
-		for (int i = 0; i < input.length; i++) {
+		for (int i = 1; i < input.length; i++) {
 
 			if (minNum > input[i]) {
 				minNum = input[i];
