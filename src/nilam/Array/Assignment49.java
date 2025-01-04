@@ -1,5 +1,5 @@
 package nilam.Array;
-
+//return the maximum number from given array. 
 public class Assignment49 {
 	
 	int printMaxNum(int[] arr) {

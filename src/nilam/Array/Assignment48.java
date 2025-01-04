@@ -1,5 +1,5 @@
 package nilam.Array;
-
+//From given int array, return count of positive numbers.
 public class Assignment48 {
 	
 	static int count=0;
