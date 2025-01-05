@@ -31,7 +31,7 @@ public class Assignment69_PrintFrequencyEachWordInString {
 						str[j]= "";						
 					}
 				}
-				System.out.println("The String is "+ word +" and frequency is " + frequency);
+				System.out.println("The String word  is "+ word +" and frequency is " + frequency);
 			}
 		}
 	}
