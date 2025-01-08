@@ -12,7 +12,7 @@ public class Assignment74 {
 		System.out.println("Input array is:\n " +Arrays.toString(arr));
 		System.out.println("-----Rotate to right by one method executed------");
 		assignment74.rotateArrayToRight1(arr);
-		System.out.println("-----Rotate to right by one method executed------" );
+		System.out.println("-----Rotate to right by two method executed------" );
 		assignment74.rotateArrayToRight2(arr);
 		
 	}
@@ -36,6 +36,6 @@ public class Assignment74 {
 			newArr2[j] = arr2[i]	;
 			//System.out.println(newArr[j]);
 		}
-		System.out.println("Roatted input array to right is:\n " +Arrays.toString(newArr2) +"\n");
+		System.out.println("Roatted input array to right by 2 is:\n " +Arrays.toString(newArr2) +"\n");
 	}
 }
