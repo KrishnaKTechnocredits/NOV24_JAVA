@@ -15,9 +15,14 @@ public class Assignment74 {
 		count++;
 		int output[] = new int[input.length];
 		int last = input[input.length - 1];
+		// 1st logic
 		for (int i = input.length - 1; i > 0; i--) {
 			output[i] = input[i - 1];
 		}
+//2nd logic
+//		for (int i = 0; i < input.length - 1; i++) {
+//			output[i + 1] = input[i];
+//		}
 		output[0] = last;
 		return output;
 	}
