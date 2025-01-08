@@ -15,13 +15,17 @@ public class Assignment64 {
 			output = output + str.charAt(i);
 		}
 		return output.toLowerCase();
+
 	}
 
 	String getFirstLetterUpperCase(String str) {
+//logic 1:
+//		char word = Character.toUpperCase(str.charAt(0));
+//		str = word + str.substring(1);
+//		return str;
 
-		char word = Character.toUpperCase(str.charAt(0));
-		str = word + str.substring(1);
-		return str;
+		// logic 2
+		return str.substring(0, 1).toUpperCase().substring(1);
 	}
 
 	String[] getReverseArray(String[] input) {
