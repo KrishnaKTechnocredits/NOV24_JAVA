@@ -18,18 +18,15 @@ public class Assignment56 {
 	
 	int[] getUnionOfMaxNumbersFromArrays(int[] num1, int[] num2) {
 		int[] obj = new int[num1.length];
-		int count = 0;
 		
-		for(int i = 0, k = 0; i<num1.length; i++, k++) 
+		for(int i = 0; i<num1.length; i++) 
 		{
-			if(num1[i] > num2[k]) 
+			if(num1[i] > num2[i]) 
 			{
-			obj[count] = num1[i];
-			count++;
+			obj[i] = num1[i];
 			}
 		else {
-			obj[count] = num2[k];
-			count++;
+			obj[i] = num2[i];
 		}
 	}
 		return obj;
