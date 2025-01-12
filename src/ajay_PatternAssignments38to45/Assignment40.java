@@ -6,7 +6,7 @@
 7 8 9 10
  
  */
-	package ajay_PatternAssignments38to44;
+	package ajay_PatternAssignments38to45;
 
 public class Assignment40 {
 	
