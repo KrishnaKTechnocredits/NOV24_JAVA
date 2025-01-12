@@ -8,7 +8,7 @@ public class Assignment73 {
 		int j =arr.length-1;
 		int[] s = new int[arr.length];
 
-		for(int i=0;i<arr.length;i++) {
+		for(int i=arr.length-1;i>=0;i--) {
 
 			if(arr[i]!=0) {
 				s[j]=arr[i];
