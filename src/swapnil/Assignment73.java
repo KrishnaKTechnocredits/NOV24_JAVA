@@ -15,14 +15,14 @@ public class Assignment73 {
 				j--;
 			}
 		}
-		System.out.println(Arrays.toString(s));;
+		System.out.println("output"+Arrays.toString(s));
 	}
 
 	public static void main(String[] args) {
 		int[] arr = {5,0,22,44,0,0,55,0,12,19};
 		Assignment73 a = new Assignment73();
 		a.shiftZeroToRight(arr);
-
+		System.out.println("input"+Arrays.toString((arr)));
 
 	}
 
