@@ -1,7 +1,5 @@
 package siddharth;
 
-import java.security.Principal;
-
 /*Assignment - 48 : 15th Dec'2024 [15 mins]
 
 From given int array, return count of positive numbers.
