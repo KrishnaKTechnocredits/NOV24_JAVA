@@ -16,7 +16,7 @@ import java.util.Arrays;
 
 public class Assignment56 {
 
-	int[] getUnionArray(int[] input1, int[] input2) {
+	int[] maximumNumber(int[] input1, int[] input2) {
 
 		int output[] = new int[input1.length];
 		for (int i = 0; i < input1.length; i++) {
@@ -35,7 +35,7 @@ public class Assignment56 {
 		int[] second = { 5, 102, 28, 77, 18 };
 
 		Assignment56 a56 = new Assignment56();
-		int[] output = a56.getUnionArray(first, second);
+		int[] output = a56.maximumNumber(first, second);
 //		for (int i = 0; i < output.length; i++) {
 //			System.out.println(output[i]);
 //		}
