@@ -12,11 +12,11 @@ Output : Last 5 numbers divisible by 5 is :
 480
  */
 
-package nitesh;
+package nitesh.loop;
 
 public class FiveReverse {
 	int count;
-	
+
 	void divisibleByFive(int startrange,int endrange) {
 		for(;endrange>=startrange;endrange--) {
 			if(endrange%5==0) {

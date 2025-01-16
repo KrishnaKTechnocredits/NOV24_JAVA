@@ -7,14 +7,14 @@ output : o
          3
          h
          c
-		 
+
          e 
          t  	
-*/
-package nitesh;
+ */
+package nitesh.string;
 
 public class ReverseString {
-	
+
 	void printReverseString(String value) {
 		for(int i=value.length()-1;i >= 0;i--) {
 			System.out.println(value.charAt(i));
