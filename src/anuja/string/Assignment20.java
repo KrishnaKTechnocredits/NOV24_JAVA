@@ -1,4 +1,5 @@
 package anuja.string;
+
 /*Find the given character count from  string.*/
 public class Assignment20 {
 	//method to print the count of matched char, use == and run for loop to iterate
@@ -13,6 +14,7 @@ public class Assignment20 {
 				}
 		
 		System.out.println("Count of " +ch+ " char in string "+str+" is "+count+" .");
+
 		return count;
 	}
 	
