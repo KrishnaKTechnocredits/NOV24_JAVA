@@ -32,6 +32,10 @@ public class StudentGrade {
 	}
 	public static void main(String[] args) {
 		StudentGrade studentGrade=new StudentGrade();
-		studentGrade.grade(7);
+		studentGrade.grade(85);
+		studentGrade.grade(75);
+		studentGrade.grade(65);
+		studentGrade.grade(55);
+		studentGrade.grade(5);
 	}
 }
