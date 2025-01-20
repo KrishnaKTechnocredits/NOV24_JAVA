@@ -19,7 +19,7 @@ import java.util.Set;
 
 public class Assignment87_ReturnNameEndWithVowel {
 
-	void returnNameEndWithVowel(Set<String> data)
+	List<String> returnNameEndWithVowel(Set<String> data)
 	{
 		List<String> l1 = new ArrayList<String>();
 		for(String name : data)
@@ -30,7 +30,7 @@ public class Assignment87_ReturnNameEndWithVowel {
 				l1.add(name);
 			}
 		}
-		System.out.println(" The Resulting names end with vowel are " + l1);
+		return l1;
 	}
 	public static void main(String[] args) {
 		HashSet<String> hs = new HashSet<String>();
@@ -40,6 +40,7 @@ public class Assignment87_ReturnNameEndWithVowel {
 		hs.add("krishna");
 		System.out.println(" The Given HashSet is : " + hs);
 		Assignment87_ReturnNameEndWithVowel assignment87_ReturnNameEndWithVowel_1 = new Assignment87_ReturnNameEndWithVowel();
-		assignment87_ReturnNameEndWithVowel_1.returnNameEndWithVowel(hs);
+		List<String> l1 = assignment87_ReturnNameEndWithVowel_1.returnNameEndWithVowel(hs);
+		System.out.println(" The Resulting names end with vowel are " + l1);
 	}
 }
