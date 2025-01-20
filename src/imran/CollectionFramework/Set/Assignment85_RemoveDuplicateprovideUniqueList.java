@@ -47,7 +47,7 @@ public class Assignment85_RemoveDuplicateprovideUniqueList {
 		Integer[] arr1 = {10, 20, 30, 40};
 		Integer[] arr2 = {20,30,60,70,80,90,100,101,44,55,66,77};
 		System.out.println(" The First list is : " + Arrays.toString(arr1));
-		System.out.println(" The First list is : " + Arrays.toString(arr2));
+		System.out.println(" The second list is : " + Arrays.toString(arr2));
 		Assignment85_RemoveDuplicateprovideUniqueList assignment85_RemoveDuplicateprovideUniqueList_1 = new Assignment85_RemoveDuplicateprovideUniqueList();
 		List<Integer> uniq1 = assignment85_RemoveDuplicateprovideUniqueList_1.getUniqueList(arr1, arr2);
 		System.out.println(" The Unique list is : " + uniq1);
