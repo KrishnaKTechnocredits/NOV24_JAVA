@@ -31,7 +31,7 @@ public class UcaseLcaseAssignment23 {
 		System.out.println("Spacecount ->" + scount);
 		System.out.println("Special char ->" + scount);
 	}
-
+	}
 	public static void main(String[] args) {
 		UcaseLcaseAssignment23 assn23 = new UcaseLcaseAssignment23();
 		assn23.lCaseUcase("Te4c_hno Credi3ts");
