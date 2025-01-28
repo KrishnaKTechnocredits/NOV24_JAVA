@@ -1,28 +1,31 @@
-package swapnil;
+package swapnilArrayList;
 
 import java.util.ArrayList;
+import java.util.List;
 
-public class Assignment77 {
+public class Assignment78 {
 
-	void removeDuplicate(ArrayList<String> arr) {
-		System.out.println(arr);
-		for (int i = 0; i < arr.size(); i++) {
+	void removeDuplicate(List<String> arr) {
+		
+		for (int i = 0; i<arr.size();i++) {
+		
 			String name = arr.get(i);
 
-			int index = arr.indexOf(name);
-			int lastindex = arr.lastIndexOf(name);
+			int lastindex = arr.indexOf(name);
+			int index = arr.lastIndexOf(name);
 
-			if (index != lastindex ) {
-				arr.remove(lastindex);
+			if (lastindex!=index ) {
+				arr.remove(index);
 				i--;
 			}
-					}
-		
+			
+		}
 		System.out.println(arr);
-
 	}
+	
 
 	public static void main(String[] args) {
+		Assignment78 A = new Assignment78();
 		ArrayList<String> arr = new ArrayList<String>(100);
 		arr.add("Anuja");
 		arr.add("Fazrana");
@@ -36,7 +39,8 @@ public class Assignment77 {
 		arr.add("Nitesh");
 		arr.add("Nitesh");
 		arr.add("Aashvi");
-		Assignment77 A = new Assignment77();
+		
+		System.out.println(arr);
 		A.removeDuplicate(arr);
 
 	}
