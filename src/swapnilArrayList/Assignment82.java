@@ -1,4 +1,4 @@
-package swapnil;
+package swapnilArrayList;
 
 import java.util.ArrayList;
 import java.util.List;
