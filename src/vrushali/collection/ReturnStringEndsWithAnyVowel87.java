@@ -5,7 +5,16 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
-//Assignemt no 87: Return list of string ends with vowles
+//Assignment - 87 : 16th Jan
+//From given Set, return all the names which ends with Vowel. 
+//
+//HashSet<String> hs = new HashSet<String>();
+//hs.add("techno");
+//hs.add("credits");
+//hs.add("rushikesh");
+//hs.add("krishna");
+//
+//output : [techno, krishna]
 
 public class ReturnStringEndsWithAnyVowel87 {
 
