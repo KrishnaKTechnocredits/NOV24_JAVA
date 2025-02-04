@@ -14,10 +14,11 @@ public class Assignment100useScanner {
 		Assignment100useScanner obj = new Assignment100useScanner();
 
 		Scanner sc = new Scanner(System.in);
-		String str = sc.nextLine();
-		System.out.println("Input String is: "+str);
+		System.out.println("Input String is");
+		String str = sc.nextLine().trim();
 		System.out.println("------------------------");
 		obj.findFreqUseMap(str);
+		sc.close();
 	}
 
 	private void findFreqUseMap(String inputStr) {
