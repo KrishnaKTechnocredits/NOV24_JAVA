@@ -1,4 +1,4 @@
-package AssignmentDemoCode;
+package krishna;
 
 import java.util.Map;
 import java.util.Scanner;
