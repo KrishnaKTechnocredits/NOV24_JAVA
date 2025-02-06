@@ -35,7 +35,7 @@ public class PalindromeAssignment103 {
 		}
 		StringBuilder revName = new StringBuilder(name);
 		StringBuilder revName2 = revName.reverse();
-		if (revName.equals(revName2)) {
+		if (revName.equals(revName2.toString())) {
 			System.out.println(revName2 + " is a pallindrom String");
 		} else {
 			System.out.println(revName2 + " is not a pallindrom String");

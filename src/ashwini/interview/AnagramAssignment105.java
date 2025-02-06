@@ -39,5 +39,6 @@ public static void main(String[] args) {
 	String input2=sc.nextLine().toLowerCase();
 	AnagramAssignment105 aa1= new AnagramAssignment105();
 	aa1.getAnagram(input1, input2);
+	sc.close();
 }
 }

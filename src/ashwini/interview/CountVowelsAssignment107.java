@@ -75,6 +75,7 @@ for(char ch:input.toCharArray()) {
 		uniqueVowels++;
 	
 	System.out.println("Unique Vowels: " +	uniqueVowels);
+	sc.close();
 }
 }
 
