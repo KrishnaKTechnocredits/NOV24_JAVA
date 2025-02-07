@@ -51,11 +51,9 @@ public class Assignment96 {
 			} else {
 				map.put(str1, 1);
 			}
-
 		}
 		ConcurrentHashMap<String, Integer> highestFreqWords = getHighestFreqList(map);
 		System.out.print("The list of all the words having highest frequency => " + highestFreqWords);
-
 	}
 
 	public static void main(String[] args) {
