@@ -9,7 +9,7 @@ input :
 output :  {10,19,18,99,8}
 */
 
-package nikita;
+package nikita.arraysdemo;
 
 import java.util.Arrays;
 
