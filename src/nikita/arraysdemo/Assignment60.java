@@ -5,7 +5,7 @@ input = {33,33,19,55,53,11};
 output : 53 
 */
 
-package nikita;
+package nikita.arraysdemo;
 
 import java.util.Arrays;
 

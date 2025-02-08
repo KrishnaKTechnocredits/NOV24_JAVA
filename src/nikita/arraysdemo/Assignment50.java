@@ -9,7 +9,7 @@ output : 22
 input : {-44,-45,-22,-25,-47,29,46}
 output : -47*/
 
-package nikita;
+package nikita.arraysdemo;
 
 public class Assignment50 {
 
