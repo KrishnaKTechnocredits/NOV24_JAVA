@@ -14,7 +14,7 @@ public class Builder {
 
 	@Override
 	public String toString() {
-		return "[name=" + name + ", location=" + location + ", exp=" + exp + ", revenue=" + revenue + "]";
+		return "Builder [name=" + name + ", location=" + location + ", exp=" + exp + ", revenue=" + revenue + "]";
 	}
 
 }
