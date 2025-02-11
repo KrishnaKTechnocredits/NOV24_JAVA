@@ -60,7 +60,7 @@ public class TestMain {
 	
 }	
 
-
+*/
 
 	public static void main(String[] args) {
 		Manager manager = new Manager();
@@ -77,7 +77,7 @@ public class TestMain {
 	}
 	
 }
-
+/*
 
 
 	public static void main(String[] args) {
