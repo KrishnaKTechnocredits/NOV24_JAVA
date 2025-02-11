@@ -13,10 +13,10 @@ public class Test {
 	}
 
 }
-/*
+*/
 public class TestMain {
 
-	public static void main(String[] args) {
+	public void main(String[] args) {
 		Employee employee = new Employee();
 		System.out.println(employee.x);
 		System.out.println(employee.y);
@@ -27,6 +27,7 @@ public class TestMain {
 		employee.m3();
 	}
 
+}
 }
 /*
 public class TestMain {
