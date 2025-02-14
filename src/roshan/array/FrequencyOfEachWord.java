@@ -34,8 +34,14 @@ public class FrequencyOfEachWord {
 }
 
 
-
-
+/*
+ * Assignment - 69 : 5th Jan'2025 [IMP] Print frequency of each word from given
+ * String.
+ * 
+ * String str = "Hi Hello Hi Hi Hi Techno Credits Techno";
+ * 
+ * output : Hi -> 4 Hello -> 1 Techno -> 2 Credits -> 1
+ */
 
 
 
