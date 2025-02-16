@@ -11,28 +11,30 @@ Hint : naman reverse is again naman ( name ,number if we reverse still it comes 
  */
 
 package rohan;
+
 import java.util.*;
+
 public class Assignment_103 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner sc = new Scanner(System.in);
-		
+
 		System.out.println("Enter a String");
 		String str = sc.nextLine();
 		sc.close();
-		
+
 		String str3 = str.toLowerCase();
-		//System.out.println(str3);
+		// System.out.println(str3);
 		StringBuffer str1 = new StringBuffer(str3);
 		String rev = str1.reverse().toString();
-		//System.out.println(rev);
-		if(rev.equals(str3)) {
-			System.out.println( str+" is a pallindrom string");
-		}else {
-			System.out.println( str+" is a not pallindrom string");
+		// System.out.println(rev);
+		if (rev.equals(str3)) {
+			System.out.println(str + " is a pallindrom string");
+		} else {
+			System.out.println(str + " is a not pallindrom string");
 		}
-		
+
 	}
 
 }

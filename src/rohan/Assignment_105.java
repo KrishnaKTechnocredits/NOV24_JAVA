@@ -12,10 +12,11 @@ Hint : Using Collections framework, using array sorting and comparing.
  */
 
 package rohan;
+
 import java.util.*;
 
 public class Assignment_105 {
-	
+
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the input 1");
@@ -24,27 +25,26 @@ public class Assignment_105 {
 		System.out.println("Enter the input 2");
 		String str1 = sc.next();
 		String input1 = str.toLowerCase();
-		
-		if(str.length()!=str1.length()){
+
+		if (str.length() != str1.length()) {
 			System.out.println("Given strings are not angram");
 		}
-		Set<Object> str2  = new TreeSet<>();
-		for(int i=0 ;i<str.length();i++) {
+		Set<Object> str2 = new TreeSet<>();
+		for (int i = 0; i < str.length(); i++) {
 			char ch = input.charAt(i);
 			str2.add(ch);
-			//System.out.println(str2+"str2");
+			// System.out.println(str2+"str2");
 		}
-		Set<Object> str3  = new TreeSet<>();
-		for(int i=0 ;i<str.length();i++) {
+		Set<Object> str3 = new TreeSet<>();
+		for (int i = 0; i < str.length(); i++) {
 			char ch = input1.charAt(i);
 			str3.add(ch);
-			//System.out.println(str3+"str3");
+			// System.out.println(str3+"str3");
 		}
-		if(str2.equals(str3)) {
-			System.out.println("Given strings "+str+" "+str1 +" are anagram string");
-		}
-		else {
-			System.out.println("Given strings "+str+" "+str1 +" are not anagram string");
+		if (str2.equals(str3)) {
+			System.out.println("Given strings " + str + " " + str1 + " are anagram string");
+		} else {
+			System.out.println("Given strings " + str + " " + str1 + " are not anagram string");
 		}
 	}
 }

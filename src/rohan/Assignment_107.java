@@ -24,22 +24,22 @@ public class Assignment_107 {
 		System.out.println("Give input::");
 		String str = sc.next();
 		str = str.toLowerCase();
-		
-		Map<Object,Integer> countVowel = new LinkedHashMap<>();
-		for(int i=0;i<str.length();i++) {
+
+		Map<Object, Integer> countVowel = new LinkedHashMap<>();
+		for (int i = 0; i < str.length(); i++) {
 			char ch = str.charAt(i);
-			if(ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u') {
-			if(countVowel.containsKey(ch)) {
-				int freq = countVowel.get(ch);
-				countVowel.put(ch, ++freq);
-			}else {
-				countVowel.put(ch, 1);
-			}
+			if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u') {
+				if (countVowel.containsKey(ch)) {
+					int freq = countVowel.get(ch);
+					countVowel.put(ch, ++freq);
+				} else {
+					countVowel.put(ch, 1);
+				}
 			}
 		}
 		System.out.println(countVowel);
 		int j = countVowel.size();
-		System.out.println("Total unique vowels are "+j);
+		System.out.println("Total unique vowels are " + j);
 	}
 
 }
