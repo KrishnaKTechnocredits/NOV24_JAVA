@@ -6,7 +6,7 @@ int getMaxMinNum(int[] arr){
 	
 } */
 
-package nikita;
+package nikita.arraysdemo;
 
 public class Assignment52 {
 		int[] getMaxMinNumbers(int[] arr) {
