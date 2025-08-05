@@ -7,7 +7,7 @@ Premlata
 Fazrana
 */
 
-package nikita;
+package nikita.arraysdemo;
 
 public class Assignment47 {
 	

@@ -6,7 +6,7 @@ input : {10,30,-45,66,-10};
 output : 3 
 */
 
-package nikita;
+package nikita.arraysdemo;
 
 public class Assignment48 {
 	
