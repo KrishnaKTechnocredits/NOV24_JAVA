@@ -1,4 +1,5 @@
 package roshan.ArrayList;
+
 import java.util.*;
 
 public class ReturnNameHavingAtleastOneUpprLowwerDigitSpecialChar {
@@ -18,11 +19,11 @@ public class ReturnNameHavingAtleastOneUpprLowwerDigitSpecialChar {
 		int lCount = 0;
 		int dCount = 0;
 		int spCharCount = 0;
-        for (int i = 0; i < arr.length(); i++) {
+		for (int i = 0; i < arr.length(); i++) {
 			char ch = arr.charAt(i);
 
 			if (Character.isUpperCase(ch)) {
-			uCount++;
+				uCount++;
 			} else if (Character.isLowerCase(ch)) {
 				lCount++;
 			} else if (Character.isDigit(ch)) {
@@ -30,14 +31,11 @@ public class ReturnNameHavingAtleastOneUpprLowwerDigitSpecialChar {
 			} else if (ch == '_' || ch == '!' || ch == '#' || ch == '$') {
 				spCharCount++;
 			}
-			
-			}
-        return uCount > 0 && lCount > 0 && dCount > 0 && spCharCount > 0;
 
-	}		
-	
-	
+		}
+		return uCount > 0 && lCount > 0 && dCount > 0 && spCharCount > 0;
 
+	}
 
 	public static void main(String[] args) {
 		String[] arr = { "TechnOCrediTs", "TEch1n_o##", "Credits", "Tit!i1ksHa", "PUNE1#" };
