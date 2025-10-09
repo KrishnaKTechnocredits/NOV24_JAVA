@@ -28,3 +28,13 @@ public class RemoveNameHaving5orLessChar {
 		System.out.println(output);
 	}
 }
+
+/*
+ * Assignment - 86: 14th Jan
+ * 
+ * Remove all the names from list having length less than or equal to 5
+ * characters.
+ * 
+ * input : ["Aaruhi","Ansh", "Akanksha", "Eva", "Kishor"] output : ["Aaruhi",
+ * "Akanksha", "Kishor"]
+ */
