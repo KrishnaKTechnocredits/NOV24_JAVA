@@ -24,6 +24,6 @@ public class FindUniqueSetOfNameandPrintFirstandLastNameOFList {
  * list.
  * 
  * String[] arr = {"Maulik", "Kanani", "Maulik", "Pune", "India", "Pune"};
- * output : [Maulik, Kanani, Pune, India] First name of the list is -> Maulik
+ * output : [Maulik, Kanani, Pune, India] First name of the list is -> Maulik.
  * Last name of the list is -> India
  */

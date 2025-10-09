@@ -24,7 +24,7 @@ public class RemoveDublicateFromArray {
 }
 
 /*
- * Assignment - 89 : 16th jan Remove all the duplicates from given array.
+ * Assignment - 89 : 16th jan Remove all the duplicates from given array..
  * 
  * Integer[] arr = {10,20,20,20,30,30,40,50,40,10};
  */

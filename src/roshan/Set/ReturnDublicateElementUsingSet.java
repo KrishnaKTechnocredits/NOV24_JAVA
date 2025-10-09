@@ -26,7 +26,7 @@ public class ReturnDublicateElementUsingSet {
 }
 
 /*
- * Assignment - 88 : 16th Jan From given array, return all duplicate elements
+ * Assignment - 88 : 16th Jan From given array, return all duplicate elements.
  * usingset.
  * 
  * int[] arr = {33,22,44,33,12,15,16,22}; output : [33,22]

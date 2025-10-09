@@ -31,7 +31,7 @@ public class ReturnAllNameWhichEndWithVowels {
 
 /*
  * Assignment 87 - return all names which are ended with vowels. String[] arr =
- * { "Roshan", "mokati", "malanio", "ganesh" };
+ * { "Roshan", "mokati", "malanio", "ganesh" };.
  * 
  * out put:- [mokati, malanio]
  */
