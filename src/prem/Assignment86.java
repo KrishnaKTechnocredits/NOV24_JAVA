@@ -8,7 +8,6 @@ public class Assignment86 {
 	public static void main(String[] args) {
 		String[] input = { "Aaruhi", "Ansh", "Akanksha", "Eva", "Kishor" };
 		ArrayList<String> originalList = new ArrayList<String>(Arrays.asList(input));
-		ArrayList<String> output = new ArrayList<String>();
 
 		for (int i=0;i <originalList.size();i++) {
 			String name =originalList.get(i);
@@ -17,7 +16,7 @@ public class Assignment86 {
 			}
 
 		}
-		System.out.println(output);
+		System.out.println(originalList);
 	}
 
 }
