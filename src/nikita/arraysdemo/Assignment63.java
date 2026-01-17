@@ -5,7 +5,7 @@ input : {"TeCh", "Aashvi", "Credits", "AnsH"}
 output : [hsna, stiderc, ivhsaa, hcet]
 */
 
-package nikita;
+package nikita.arraysdemo;
 
 import java.util.Arrays;
 

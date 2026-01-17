@@ -7,7 +7,7 @@
 5 5 5 5
 */
 
-package nikita;
+package nikita.patternpriting;
 
 public class Assignment41 {
 	

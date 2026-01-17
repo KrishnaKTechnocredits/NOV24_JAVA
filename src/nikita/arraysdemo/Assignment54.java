@@ -1,7 +1,7 @@
 /* return the array having elements in reverse order of original array. 
 */
 
-package nikita;
+package nikita.arraysdemo;
 
 public class Assignment54 {
 	
