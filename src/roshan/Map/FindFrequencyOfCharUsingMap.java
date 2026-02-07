@@ -4,14 +4,14 @@ import java.util.*;
 
 public class FindFrequencyOfCharUsingMap {
 	void getFrequencyofchar(String Word) {
-		char[] arrOfCh = Word.toCharArray();
+		char[] arrOfCh = Word.toCharArray(); // split given string into list of char
 		Map<Character, Integer> mapList = new HashMap<>();
 		int count = 0;
 		for (char ch : arrOfCh) {
 			if (!mapList.containsKey(ch)) {
 				mapList.put(ch, 1);
 			} else {
-				count = mapList.get(ch);
+				count = mapList.get(ch);//give value ofgiven key
 				mapList.put(ch, count + 1);
 			}
 		}
