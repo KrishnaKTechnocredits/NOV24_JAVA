@@ -5,7 +5,7 @@ public class ExcludeSpace {
 	static int b = 0;
 
 	static void getWithoutSapce(String word) {
-		for (int index = 0; index < word.length(); index++) {
+		for (int index = 1; index <= word.length(); index++) {
 			if (word.charAt(index) == ' ') {
 				a++;
 			} else {
