@@ -10,7 +10,7 @@ output : [10,102,28,77,88]
 NOTE : Use sop(Arrays.toString(output)) to print the array without for loop
 */
 
-package nikita;
+package nikita.arraysdemo;
 
 import java.util.Arrays;
 

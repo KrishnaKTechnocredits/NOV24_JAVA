@@ -10,7 +10,7 @@ output : 99
 		 34
 		 10*/
 
-package nikita;
+package nikita.arraysdemo;
 
 public class Assignment53 {
 	

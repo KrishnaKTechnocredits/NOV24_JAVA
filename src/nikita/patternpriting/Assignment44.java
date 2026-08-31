@@ -9,7 +9,7 @@ write a logic to print below pattern.
 
  */
 
-package nikita;
+package nikita.patternpriting;
 
 public class Assignment44 {
 	

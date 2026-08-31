@@ -1,6 +1,6 @@
 /* print table for 1 to 5 numbers.*/
 
-package nikita.patterndemo;
+package nikita.patternpriting;
 
 public class Assignment36 {
 	void m1() {

@@ -6,7 +6,7 @@ D E F
 G H I J
 */
 
-package nikita;
+package nikita.patternpriting;
 
 public class Assignment43 {
 	

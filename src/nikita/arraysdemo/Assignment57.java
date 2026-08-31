@@ -4,7 +4,7 @@ Return the maximum length string from given array.
 input : {"Tech", "Tech", "Technocredits", "aashvi","GlobantPune","Ashvik", "PuneGlobant","Pune", "PuGlobantne"}
 ouput : Technocredits*/
 
-package nikita;
+package nikita.arraysdemo;
 
 public class Assignment57 {
 	

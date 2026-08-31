@@ -7,7 +7,7 @@ void findMaxMin(int[] arr){
 } 
 */
 
-package nikita;
+package nikita.arraysdemo;
 
 public class Assignment51 {
 	

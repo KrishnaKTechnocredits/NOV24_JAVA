@@ -6,7 +6,7 @@ output : [HSNa, StidErc, IvHsaa, HCet]
 
 Hint : First letter in Uppercase + last Letter in lowercase + all other characters in same case + exclude digits*/
 
-package nikita;
+package nikita.arraysdemo;
 
 import java.util.Arrays;
 
